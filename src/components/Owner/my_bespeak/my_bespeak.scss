@@ -1,0 +1,73 @@
+body,html{
+    background: #f2f2f2;
+}
+#middle{
+    
+    
+    ul{
+        width: 100%;
+        margin: 0.3rem auto;
+        li{
+            width: 100%;
+            height: 2.6rem;
+            background: #fff;
+            position: relative;
+            margin-bottom: 0.28rem;
+            span{
+                color: #01b27a;
+                font-size: 0.3rem;
+                position: absolute;
+                right: 0.3rem;
+                top: 0.3rem;
+            }
+            span.red{
+                color:#ff0000;
+            }
+             span.yellow{
+                color:yellow;
+            }
+            .img{
+                float: left;
+                width: 3.2rem;
+                height: 1.9rem;
+                margin: 0.35rem 0.15rem 0 0.2rem;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .right{
+                float: left;
+                width:3.9rem ;
+                h3{
+                    font-size: 0.34rem;
+                    color: #e60000;
+                    margin: 0.35rem 0 0.2rem 0;
+                }
+                p.name{
+                    font-size:  0.3rem ;
+                    color:#333333;
+                    margin: 0.1rem 0;
+                }
+                p.attr{
+                    font-size: 0.24rem;
+                    color: #999999;
+                    margin: 0.1rem 0 0.2rem;
+                    
+                }
+                p.position{
+                    font-size: 0.24rem;
+                    color: #999999;
+                    margin: 0.1rem 0 0.2rem;
+                    img{
+                        width: 0.18rem;
+                        height: 0.23rem;
+                        margin-right: 0.1rem;
+                        vertical-align:middle;
+                    }
+                }
+            }
+            
+        }
+    }
+}

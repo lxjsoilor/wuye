@@ -1,0 +1,199 @@
+.wenda_list { width: 100%; }
+.wenda_list ul { width: 100%; }
+.wenda_list ul li { width: 550px; float: left; height: 100px; margin: 0 40px 50px 0; }
+.wenda_list ul li .left { float: left; width: 80px; height: 100%; border-right: 1px solid #f2f2f2; }
+.wenda_list ul li .left img { width: 75px; height: 75px; display: block; margin: 0 auto; border-radius: 50%; }
+.wenda_list ul li .left p { font-size: 12px; color: #999; text-align: center; margin-top: 8px; }
+.wenda_list ul li .right { float: left; width: 445px; margin-left: 20px; }
+.wenda_list ul li .right .name { font-size: 16px; line-height: 40px; }
+.wenda_list ul li .right .wenda_info { color: #808080; font-size: 12px; position: relative; }
+.wenda_list ul li .right .wenda_info p { display: block; width: 100%; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.wenda_list ul li .right .wenda_info a { color: #ee0a0d; position: absolute; bottom: -20px; right: 0; }
+
+.page { margin-left: 230px; clear: both; margin-bottom: 60px; }
+.page span { display: block; float: left; color: #4c4c4c; line-height: 30px; margin-right: 15px; }
+.page ul { float: left; }
+.page ul li { padding: 0px 15px; height: 30px; border: 1px #e1e1e1 solid; cursor: pointer; float: left; margin-right: 10px; line-height: 30px; text-align: center; color: #4c4c4c; }
+.page ul li.on { background: #ee0a0d; color: #fff; border: none; }
+
+.chat { clear: both; width: 100%; overflow: hidden; border: 1px #e0e0e0 solid; margin-bottom: 30px; }
+.chat .chat_title { background: #F2F2F2; height: 40px; width: 100%; border-bottom: 1px #e0e0e0 solid; color: #000000; font-size: 18px; font-weight: bold; line-height: 40px; padding-left: 15px; box-sizing: border-box; }
+.chat .chat_title span { font-weight: normal; }
+.chat .chat_title .btn { width: 135px; height: 30px; float: right; background: #fff; text-align: center; color: #6f6f6f; font-size: 14px; line-height: 30px; margin-right: 13px; margin-top: 5px; }
+.chat .order_info { width: 100%; padding: 10px 0; }
+.chat .order_info p { line-height: 45px; color: #a7a7a7; padding-left: 20px; box-sizing: border-box; }
+.chat .order_info p span { font-size: 24px; color: #ee0a0d; font-weight: bold; }
+.chat .order_info p a { display: inline-block; width: 70px; height: 25px; border-radius: 5px; border: 1px solid #ee0a0d; text-align: center; line-height: 25px; color: #ee0a0d; font-size: 14px; }
+.chat .cat_list { width: 100%; }
+.chat .cat_list ul { width: 100%; text-align: center; margin: 25px 0; }
+.chat .cat_list ul li { display: inline-block; width: 122px; height: 35px; text-align: center; line-height: 35px; background: #f0f0f0; color: #4a4a4a; margin-right: 3px; font-size: 14px; }
+.chat .cat_list ul li.active { background: #eb1e24; color: #fff; }
+.chat .chat_name p { text-align: center; color: #000000; font-size: 18px; }
+.chat .chat_name span { font-size: 12px; color: #aaa9a9; display: block; text-align: center; }
+.chat .address_list { width: 1175px; margin: 0 auto; margin-bottom: 25px; }
+.chat .address_list ul { width: 100%; margin-top: 20px; }
+.chat .address_list ul li { width: 100%; height: 40px; border: 1px solid #e5e5e5; margin-bottom: 10px; position: relative; }
+.chat .address_list ul li .name { float: left; line-height: 40px; font-size: 16px; color: #666666; font-weight: bold; width: 80px; text-align: center; }
+.chat .address_list ul li .phone { float: left; line-height: 40px; font-size: 16px; color: #666666; padding: 0 20px; text-align: center; }
+.chat .address_list ul li .add_adress { display: none; position: absolute; bottom: 0; right: 0; width: 22px; height: 23px; }
+.chat .address_list ul li .add_adress img { width: 100%; height: 100%; }
+.chat .address_list ul li.active { border: 1px #cc080b solid; }
+.chat .address_list ul li.active .add_adress { display: block; }
+.chat .radio_list { width: 100%; height: 70px; }
+.chat .radio_list ul { width: 100%; padding-left: 15px; }
+.chat .radio_list ul li { float: left; width: 120px; height: 70px; line-height: 70px; font-size: 14px; color: #666666; position: relative; padding-left: 20px; background: url(../img/check.png) no-repeat; background-position: left center; margin-right: 20px; }
+.chat .radio_list ul li.check { background: url(../img/check_active.png) no-repeat; background-position: left center; }
+.chat .order_list { width: 100%; }
+.chat .order_list ul { overflow: hidden; border-bottom: 1px #E0E0E0 solid; }
+.chat .order_list ul li { float: left; height: 98px; text-align: center; color: #7f7f7f; font-size: 14px; }
+.chat .order_list ul li.red { color: #ee0a0d; }
+.chat .order_list ul li p { margin-top: 22px; }
+.chat .order_list ul li p.red { color: #ee0a0d; }
+.chat .order_list ul li:nth-child(1) { width: 340px; }
+.chat .order_list ul li:nth-child(1) img { width: 75px; height: 75px; display: block; float: left; margin: 12px 20px; }
+.chat .order_list ul li:nth-child(1) span { float: left; margin-top: 22px; }
+.chat .order_list ul li:nth-child(2) { width: 300px; }
+.chat .order_list ul li:nth-child(3) { width: 190px; }
+.chat .order_list ul li:nth-child(4) { width: 160px; }
+.chat .order_list ul li:nth-child(5) { width: 210px; }
+.chat .order_list ul.order_head { height: 40px; }
+.chat .order_list ul.order_head li { height: 40px; line-height: 40px; color: #000; font-size: 12px; }
+.chat .order_list ul.order_head li:nth-child(1) { padding-left: 60px; box-sizing: border-box; text-align: left; }
+.chat .order_list .total { width: 100%; height: 55px; line-height: 55px; text-align: right; border-bottom: 1px #E0E0E0 solid; }
+.chat .order_list .total span { display: inline-block; margin-right: 10px; }
+.chat .order_list .total span.num { display: inline-block; color: #000000; font-size: 12px; }
+.chat .order_list .total span.total_ { color: #666666; font-size: 12px; }
+.chat .order_list .total span.total_price { font-size: 20px; color: #ee0a0d; margin-right: 50px; }
+.chat .order_list .liuyan { width: 100%; padding: 0 22px; box-sizing: border-box; }
+.chat .order_list .liuyan .liu_title { line-height: 55px; margin: 10px 0 0 0; font-size: 18px; color: #000000; font-weight: bold; }
+.chat .order_list .liuyan textarea { width: 100%; height: 123px; resize: none; background: #f2f2f2; border: none; padding: 10px; box-sizing: border-box; line-height: 20px; margin-bottom: 30px; }
+.chat .timepick { width: 100%; text-align: center; color: #aaa9a9; margin-bottom: 30px; }
+.chat .timepick .btn { display: inline-block; width: 135px; height: 32px; border: 1px #aaa9a9 solid; border-radius: 5px; margin: 0 22px; }
+.chat .timepick .btn input { width: 100%; border: none; background: none; line-height: 32px; text-align: center; color: #aaa9a9; }
+.chat .timepick .submit { width: 130px; height: 32px; border-radius: 5px; display: inline-block; background: #ee0a0d; line-height: 32px; color: #fff; }
+.chat .table { width: 1177px; overflow: hidden; margin: 0 auto; border: 1px #e0e0e0 solid; }
+.chat .table ul { width: 100%; }
+.chat .table ul li { float: left; width: 50%; padding-left: 20px; box-sizing: border-box; height: 40px; text-align: left; line-height: 40px; color: #000; font-size: 14px; }
+.chat .table ul li span { color: #5f5f5f; }
+.chat .table ul li:last-child { border-right: none; }
+
+.huizong { width: 100%; padding-bottom: 15px; border-bottom: 1px #e0e0e0 solid; margin-bottom: 60px; }
+.huizong p { width: 100%; text-align: right; color: #666666; font-size: 14px; line-height: 31px; }
+.huizong p span.price { width: 160px; display: inline-block; }
+.huizong p span { color: #ee0a0d; }
+
+form { width: 100%; margin-top: 30px; }
+form .item { width: 100%; overflow: hidden; margin-bottom: 15px; }
+form .item .label { width: 100px; float: left; text-align: right; color: #616161; line-height: 40px; margin-right: 20px; font-size: 14px; }
+form .item .input { float: left; width: 520px; box-sizing: border-box; border: 1px #cbcaca solid; height: 40px; line-height: 40px; border-radius: 5px; }
+form .item .input input { width: 100%; height: 100%; float: left; border: none; background: none; padding: 0 10px; line-height: 40px; }
+form .item .textarea_div { float: left; width: 520px; box-sizing: border-box; border: 1px #cbcaca solid; height: 130px; line-height: 40px; border-radius: 5px; }
+form .item .textarea_div textarea { border: none; width: 100%; padding: 5px 10px; resize: none; height: 100%; box-sizing: border-box; }
+form .item .select_div { float: left; width: 520px; height: 39px; line-height: 40px; border-radius: 5px; }
+form .item .select_div select { width: 257px; height: 100%; border: 1px #cbcaca solid; border-radius: 5px; box-sizing: border-box; }
+form .item .input_code { float: left; width: 397px; box-sizing: border-box; border: 1px #cbcaca solid; height: 40px; line-height: 40px; border-radius: 5px; }
+form .item .input_code input { width: 100%; height: 100%; float: left; border: none; background: none; padding: 0 10px; line-height: 40px; }
+form .item .btn { float: left; width: 110px; height: 40px; background: #ee0a0d; color: #fff; border: none; float: left; margin: 0; margin-left: 10px; font-size: 14px; }
+form button { width: 116px; height: 40px; background: #ee0a0d; border: none; color: #fff; font-size: 16px; border-radius: 5px; display: block; margin: 40px auto 15px; cursor: pointer; }
+
+.tip { text-align: center; color: #999999; font-size: 12px; }
+
+@media only screen and (max-width: 750px) { #contant-m { padding-top: 0.87rem; padding-bottom: 0.98rem; width: 100%; }
+  #contant-m .wenda_list { width: 100%; }
+  #contant-m .wenda_list ul { width: 100%; }
+  #contant-m .wenda_list ul li { width: 100%; float: left; height: 1rem; margin: 0 0.4rem 0.5rem 0; }
+  #contant-m .wenda_list ul li .left { float: left; width: 1.8rem; height: 100%; border-right: 1px solid #f2f2f2; }
+  #contant-m .wenda_list ul li .left img { width: 0.75rem; height: 0.75rem; display: block; margin: 0 auto; border-radius: 50%; }
+  #contant-m .wenda_list ul li .left p { font-size: 0.12rem; color: #999; text-align: center; }
+  #contant-m .wenda_list ul li .right { float: left; width: 4.8rem; margin-left: 0.2rem; }
+  #contant-m .wenda_list ul li .right .name { font-size: 0.16rem; line-height: 0.4rem; }
+  #contant-m .wenda_list ul li .right .wenda_info { color: #808080; font-size: 0.12rem; position: relative; }
+  #contant-m .wenda_list ul li .right .wenda_info p { display: block; width: 100%; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  #contant-m .wenda_list ul li .right .wenda_info a { color: #ee0a0d; position: absolute; bottom: -20px; right: 0; }
+  #contant-m .page-m { width: 100%; margin: 0.8rem 0 0.3rem 0; }
+  #contant-m .page-m ul { width: 100%; text-align: center; font-size: 0; }
+  #contant-m .page-m ul li { width: 0.48rem; height: 0.48rem; border: 1px solid #c7c7c7; border-radius: 0.05rem; line-height: 0.48rem; text-align: center; display: inline-block; font-size: 0.24rem; color: #c7c7c7; margin-right: 0.15rem; }
+  #contant-m .page-m ul li.on { color: #fff; background: #eb1e24; border: 1px solid #eb1e24; }
+  #contant-m .page-m ul li:nth-child(1), #contant-m .page-m ul li:last-child { width: 0.75rem; }
+  #contant-m .chat { clear: both; width: 100%; overflow: hidden; border: 1px #e0e0e0 solid; margin-bottom: 30px; }
+  #contant-m .chat .chat_title { background: #F2F2F2; height: 40px; width: 100%; border-bottom: 1px #e0e0e0 solid; color: #000000; font-size: 18px; font-weight: bold; line-height: 40px; padding-left: 15px; box-sizing: border-box; }
+  #contant-m .chat .chat_title span { font-weight: normal; }
+  #contant-m .chat .chat_title .btn { width: 135px; height: 30px; float: right; background: #fff; text-align: center; color: #6f6f6f; font-size: 14px; line-height: 30px; margin-right: 13px; margin-top: 5px; }
+  #contant-m .chat .order_info { width: 100%; padding: 10px 0; }
+  #contant-m .chat .order_info p { line-height: 45px; color: #a7a7a7; padding-left: 20px; box-sizing: border-box; }
+  #contant-m .chat .order_info p span { font-size: 24px; color: #ee0a0d; font-weight: bold; }
+  #contant-m .chat .order_info p a { display: inline-block; width: 70px; height: 25px; border-radius: 5px; border: 1px solid #ee0a0d; text-align: center; line-height: 25px; color: #ee0a0d; font-size: 14px; }
+  #contant-m .chat .cat_list { width: 100%; }
+  #contant-m .chat .cat_list ul { width: 100%; text-align: center; margin: 25px 0; }
+  #contant-m .chat .cat_list ul li { display: inline-block; width: 122px; height: 35px; text-align: center; line-height: 35px; background: #f0f0f0; color: #4a4a4a; margin-right: 3px; font-size: 14px; }
+  #contant-m .chat .cat_list ul li.active { background: #eb1e24; color: #fff; }
+  #contant-m .chat .chat_name p { text-align: center; color: #000000; font-size: 18px; }
+  #contant-m .chat .chat_name span { font-size: 12px; color: #aaa9a9; display: block; text-align: center; }
+  #contant-m .chat .address_list { width: 1175px; margin: 0 auto; margin-bottom: 25px; }
+  #contant-m .chat .address_list ul { width: 100%; margin-top: 20px; }
+  #contant-m .chat .address_list ul li { width: 100%; height: 40px; border: 1px solid #e5e5e5; margin-bottom: 10px; position: relative; }
+  #contant-m .chat .address_list ul li .name { float: left; line-height: 40px; font-size: 16px; color: #666666; font-weight: bold; width: 80px; text-align: center; }
+  #contant-m .chat .address_list ul li .phone { float: left; line-height: 40px; font-size: 16px; color: #666666; padding: 0 20px; text-align: center; }
+  #contant-m .chat .address_list ul li .add_adress { display: none; position: absolute; bottom: 0; right: 0; width: 22px; height: 23px; }
+  #contant-m .chat .address_list ul li .add_adress img { width: 100%; height: 100%; }
+  #contant-m .chat .address_list ul li.active { border: 1px #cc080b solid; }
+  #contant-m .chat .address_list ul li.active .add_adress { display: block; }
+  #contant-m .chat .radio_list { width: 100%; height: 70px; }
+  #contant-m .chat .radio_list ul { width: 100%; padding-left: 15px; }
+  #contant-m .chat .radio_list ul li { float: left; width: 120px; height: 70px; line-height: 70px; font-size: 14px; color: #666666; position: relative; padding-left: 20px; background: url(../img/check.png) no-repeat; background-position: left center; margin-right: 20px; }
+  #contant-m .chat .radio_list ul li.check { background: url(../img/check_active.png) no-repeat; background-position: left center; }
+  #contant-m .chat .order_list { width: 100%; }
+  #contant-m .chat .order_list ul { overflow: hidden; border-bottom: 1px #E0E0E0 solid; }
+  #contant-m .chat .order_list ul li { float: left; height: 98px; text-align: center; color: #7f7f7f; font-size: 14px; }
+  #contant-m .chat .order_list ul li.red { color: #ee0a0d; }
+  #contant-m .chat .order_list ul li p { margin-top: 22px; }
+  #contant-m .chat .order_list ul li p.red { color: #ee0a0d; }
+  #contant-m .chat .order_list ul li:nth-child(1) { width: 340px; }
+  #contant-m .chat .order_list ul li:nth-child(1) img { width: 75px; height: 75px; display: block; float: left; margin: 12px 20px; }
+  #contant-m .chat .order_list ul li:nth-child(1) span { float: left; margin-top: 22px; }
+  #contant-m .chat .order_list ul li:nth-child(2) { width: 300px; }
+  #contant-m .chat .order_list ul li:nth-child(3) { width: 190px; }
+  #contant-m .chat .order_list ul li:nth-child(4) { width: 160px; }
+  #contant-m .chat .order_list ul li:nth-child(5) { width: 210px; }
+  #contant-m .chat .order_list ul.order_head { height: 40px; }
+  #contant-m .chat .order_list ul.order_head li { height: 40px; line-height: 40px; color: #000; font-size: 12px; }
+  #contant-m .chat .order_list ul.order_head li:nth-child(1) { padding-left: 60px; box-sizing: border-box; text-align: left; }
+  #contant-m .chat .order_list .total { width: 100%; height: 55px; line-height: 55px; text-align: right; border-bottom: 1px #E0E0E0 solid; }
+  #contant-m .chat .order_list .total span { display: inline-block; margin-right: 10px; }
+  #contant-m .chat .order_list .total span.num { display: inline-block; color: #000000; font-size: 12px; }
+  #contant-m .chat .order_list .total span.total_ { color: #666666; font-size: 12px; }
+  #contant-m .chat .order_list .total span.total_price { font-size: 20px; color: #ee0a0d; margin-right: 50px; }
+  #contant-m .chat .order_list .liuyan { width: 100%; padding: 0 22px; box-sizing: border-box; }
+  #contant-m .chat .order_list .liuyan .liu_title { line-height: 55px; margin: 10px 0 0 0; font-size: 18px; color: #000000; font-weight: bold; }
+  #contant-m .chat .order_list .liuyan textarea { width: 100%; height: 123px; resize: none; background: #f2f2f2; border: none; padding: 10px; box-sizing: border-box; line-height: 20px; margin-bottom: 30px; }
+  #contant-m .chat .timepick { width: 100%; text-align: center; color: #aaa9a9; margin-bottom: 30px; }
+  #contant-m .chat .timepick .btn { display: inline-block; width: 135px; height: 32px; border: 1px #aaa9a9 solid; border-radius: 5px; margin: 0 22px; }
+  #contant-m .chat .timepick .btn input { width: 100%; border: none; background: none; line-height: 32px; text-align: center; color: #aaa9a9; }
+  #contant-m .chat .timepick .submit { width: 130px; height: 32px; border-radius: 5px; display: inline-block; background: #ee0a0d; line-height: 32px; color: #fff; }
+  #contant-m .chat .table { width: 1177px; overflow: hidden; margin: 0 auto; border: 1px #e0e0e0 solid; }
+  #contant-m .chat .table ul { width: 100%; }
+  #contant-m .chat .table ul li { float: left; width: 50%; padding-left: 20px; box-sizing: border-box; height: 40px; text-align: left; line-height: 40px; color: #000; font-size: 14px; }
+  #contant-m .chat .table ul li span { color: #5f5f5f; }
+  #contant-m .chat .table ul li:last-child { border-right: none; }
+  #contant-m .huizong { width: 100%; padding-bottom: 15px; border-bottom: 1px #e0e0e0 solid; margin-bottom: 60px; }
+  #contant-m .huizong p { width: 100%; text-align: right; color: #666666; font-size: 14px; line-height: 31px; }
+  #contant-m .huizong p span.price { width: 160px; display: inline-block; }
+  #contant-m .huizong p span { color: #ee0a0d; }
+  #contant-m form { width: 100%; margin-top: 30px; }
+  #contant-m form .item { width: 100%; overflow: hidden; margin-bottom: 15px; }
+  #contant-m form .item .label { width: 1.2rem; float: left; text-align: right; color: #616161; line-height: 40px; margin-right: 20px; font-size: 14px; }
+  #contant-m form .item .input { float: left; width: 5.4rem; box-sizing: border-box; border: 1px #cbcaca solid; height: 40px; line-height: 40px; border-radius: 5px; }
+  #contant-m form .item .input input { width: 100%; height: 100%; float: left; border: none; background: none; padding: 0 10px; line-height: 40px; }
+  #contant-m form .item .inputs { float: left; width: 5.4rem; box-sizing: border-box; height: 40px; line-height: 40px; border-radius: 5px; }
+  #contant-m form .item .inputs input { width: 100%; height: 100%; float: left; border: none; background: none; padding: 0 10px; line-height: 40px; }
+  #contant-m form .item .textarea_div { float: left; width: 5.4rem; box-sizing: border-box; border: 1px #cbcaca solid; height: 130px; line-height: 40px; border-radius: 5px; }
+  #contant-m form .item .textarea_div textarea { border: none; width: 100%; padding: 5px 10px; resize: none; height: 100%; box-sizing: border-box; }
+  #contant-m form .item .select_div { float: left; width: 5.4rem; height: 39px; line-height: 40px; border-radius: 5px; }
+  #contant-m form .item .select_div select { width: 100%; height: 100%; float: left; border: 1px #cbcaca solid; border-radius: 5px; box-sizing: border-box; }
+  #contant-m form .item .input_code { float: left; width: 5.4rem; box-sizing: border-box; border: 1px #cbcaca solid; height: 40px; line-height: 40px; border-radius: 5px; }
+  #contant-m form .item .input_code input { width: 100%; height: 100%; float: left; border: none; background: none; padding: 0 10px; line-height: 40px; }
+  #contant-m form .item .btn { float: left; width: 110px; height: 40px; background: #ee0a0d; color: #fff; border: none; float: left; margin: 0; margin-left: 10px; font-size: 14px; }
+  #contant-m form button { width: 116px; height: 40px; background: #ee0a0d; border: none; color: #fff; font-size: 16px; border-radius: 5px; display: block; margin: 40px auto 15px; cursor: pointer; }
+  #contant-m .tip { text-align: center; color: #999999; font-size: 12px; } }
+
+/*# sourceMappingURL=wenda.css.map */

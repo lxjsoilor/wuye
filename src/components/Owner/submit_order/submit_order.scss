@@ -1,0 +1,230 @@
+#middle{
+//  background: #F2F2F2;
+    .car{
+        color: #999999;
+        font-size: 0.3rem;
+        width: 7.05rem;
+        height: 0.92rem;
+        line-height: 0.92rem;
+        text-align: center;
+        margin: 0.3rem auto;
+        border:1px solid #e2bc73;
+        
+    }
+    .cart_detail{
+        width: 7rem;
+        height: 1.8rem;
+        margin: 0.3rem auto;
+        border:1px solid #e2bc73;
+        padding:0 0.1rem;
+        box-sizing:border-box;
+        .name{
+               font-size: 0.3rem;
+               color: #333333;
+               line-height: 0.88rem;
+               span{
+                   font-weight: bold;
+                   margin-right: 0.3rem;
+               }
+           }
+        .address{
+                font-size: 0.3rem;
+               color: #333333;
+           }
+    }
+    .item{
+//      border-bottom: 0.2rem #F2F2F2 solid;
+        .item_title{
+            font-size: 0.3rem;
+            color: #333333;
+            font-weight: bold;
+            border-left: 0.08rem solid #e2bc73;
+            line-height: 0.38rem;
+            padding:0 0.25rem;
+            margin: 0.25rem 0;
+            margin-left: 0.25rem;
+            span{
+                color: #e3a32d;
+                line-height: 0.38rem;
+                font-weight: normal;
+                float: right;
+                img{
+                    width: 0.3rem;
+                    height: 0.3rem;
+                }
+            }
+            
+        }
+        .product_list{
+            width: 7.05rem;
+            margin: 0 auto;
+            .pro_li{
+                width: 100%;
+                overflow: hidden;
+                .img{
+                    width: 1.6rem;
+                    height: 1.6rem;
+                    float: left;
+                    margin-right: 0.2rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .right{
+                    float: left;
+                    width: 4.25rem;
+                    h1{
+                        width: 100%;
+                        font-size: 0.26rem;
+                        color: #333333;
+                        font-weight: normal;
+                        line-height: 0.36rem;
+                    }
+                    .attr{
+                        width: 100%;
+                        font-size: 0.24rem;
+                        color: #b5b5b5;
+                        span{
+                            font-size: 0.24rem;
+                            color: #b5b5b5;
+                            margin-right: 0.4rem;
+                            line-height:0.3rem;
+                            float:left
+                        }
+                    }
+                    .price{
+                        font-size: 0.3rem;
+                        color: #eb1e24;
+                    }
+                    
+                }
+            }
+        }
+        .peisong{
+            font-size: 0.3rem;
+            color: #191919;
+            width: 7.05rem;
+            margin: 0.2rem auto;
+            span{
+                float: right;
+            }
+        }
+        .total{
+            font-size: 0.3rem;
+            color: #191919;
+            width: 7.05rem;
+            margin: 0 auto;
+            text-align: right;
+            line-height: 0.70rem;
+            border-bottom:1px solid #cccccc;
+        }
+        .remask{
+            font-size: 0.3rem;
+            color: #191919;
+            width: 7.05rem;
+            margin: 0.3rem auto;
+            span{
+                float:left;
+            }
+            textarea{
+                background: #F2F2F2;
+                font-size: 0.3rem;
+                height: 1.70rem;
+                width:5rem; 
+                padding:0.1rem;
+                resize:none;
+                // margin: 0.15rem 0;
+                border:none
+            }
+        }
+         .form1{
+            width: 100%;
+            padding: 0.2rem 0;
+            .label1{
+                padding: 0 0.25rem;
+                line-height: 0.5rem;
+                width:100%;
+                font-size: 0.26rem;
+                color: #999999;
+                
+            }
+        }
+       .form{
+            width: 100%;
+            .item2{
+                 padding: 0 0.25rem;
+                overflow: hidden;
+                .pic_div{
+                    width: 3rem;
+                    height: auto;
+                    
+                    font-size: 0.4rem;
+                    line-height: 1.15rem;
+                    text-align: center;
+                    color: #9e9e9e;
+                    margin-bottom: 0.2rem;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .label{
+                    line-height: 0.9rem;
+                    width:100%;
+                    font-size: 0.3rem;
+                    color: #333333;
+                    float: left;
+                }
+                 .input{
+                    width: 100%;
+                    float: left;
+                    font-size: 0.26rem;
+                    color: #999999;
+                    input{
+                        width: 100%;
+                        height: 0.6rem;
+                        border:1px #cacaca solid;
+                        float: left;
+                        margin-top: 0.15rem;
+                    }
+                    
+                    textarea{
+                        width:100%;
+                        height: 2.2rem;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+}
+
+ .btn_list{
+        width: 100%;
+        position: fixed;
+        bottom:0;
+        left: 0;
+        height: 0.98rem;
+      
+       .all_total{
+           width: 5rem;
+           float: left;
+           font-size: 0.3rem;
+           color: #666666;
+           margin-left: 0.2rem;
+           line-height: 0.98rem;
+           span{
+              font-size: 0.4rem;
+              color: #e00000;
+           }
+       }
+        button.buy{
+            width: 2.2rem;
+            height: 100%;
+            background: #df0000;
+            color: #fff;
+            float: right;
+            border:none
+        }
+    }

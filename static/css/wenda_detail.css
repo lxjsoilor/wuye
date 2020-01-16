@@ -1,0 +1,24 @@
+.chat { clear: both; width: 100%; overflow: hidden; border: 1px #e0e0e0 solid; margin-bottom: 30px; }
+.chat .chat_title { background: #F2F2F2; height: 40px; width: 100%; border-bottom: 1px #e0e0e0 solid; color: #000000; font-size: 18px; font-weight: bold; line-height: 40px; padding-left: 15px; box-sizing: border-box; }
+.chat .chat_title span { font-weight: normal; }
+.chat .chat_title .tip { text-align: center; color: #999999; font-size: 12px; }
+.chat .p { font-size: 14px; color: #808080; padding: 15px; line-height: 26px; }
+.chat .time { color: #808080; padding: 10px 15px; font-size: 12px; }
+.chat .user { font-size: 14px; color: #000; line-height: 40px; padding: 0 15px; }
+.chat .user img { margin: 3px 5px; width: 35px; height: 35px; float: left; border-radius: 50%; }
+.chat .name { font-size: 16px; color: #000; line-height: 30px; margin: 6px 0; padding: 0 15px; }
+.chat .img { padding: 0 15px; margin-bottom: 10px; }
+
+@media only screen and (max-width: 750px) { #content-m { padding-top: 0.87rem; padding-bottom: 0.98rem; width: 100%; }
+  #content-m .chat { clear: both; width: 100%; overflow: hidden; border: 1px #e0e0e0 solid; margin-bottom: 0.3rem; }
+  #content-m .chat .chat_title { background: #F2F2F2; height: 0.4rem; width: 100%; border-bottom: 1px #e0e0e0 solid; color: #000000; font-size: 0.18rem; font-weight: bold; line-height: 0.4rem; padding-left: 0.15rem; box-sizing: border-box; }
+  #content-m .chat .chat_title span { font-weight: normal; }
+  #content-m .chat .chat_title .tip { text-align: center; color: #999999; font-size: 0.12rem; }
+  #content-m .chat .p { font-size: 0.4rem; color: #808080; padding: 15px; line-height: 0.26rem; font-size: 0.2rem; }
+  #content-m .chat .time { color: #808080; padding: 0.1rem 0.15rem; font-size: 0.12rem; }
+  #content-m .chat .user { font-size: 0.14rem; color: #000; line-height: 0.4rem; padding: 0 0.15rem; }
+  #content-m .chat .user img { margin: 0.03rem 0.05rem; width: 0.35rem; height: 0.35rem; float: left; border-radius: 50%; }
+  #content-m .chat .name { font-size: 0.16rem; color: #000; line-height: 0.3rem; margin: 0.06rem 0; padding: 0 0.15rem; }
+  #content-m .chat .img { padding: 0 0.15rem; margin-bottom: 0.1rem; } }
+
+/*# sourceMappingURL=wenda_detail.css.map */

@@ -1,0 +1,99 @@
+#middle{
+    background: #F2F2F2;
+    .tab_list{
+        width: 100%;
+        ul{
+          width: 100%;
+          overflow: hidden;
+          background: #fff;
+            li{
+                 width: 25%;
+                 float: left;
+                 height: 0.9rem;
+                 text-align: center;
+                 line-height: 0.9rem;
+                 font-size: 0.3rem;
+                 color: #333333;
+                
+                &.on{
+                    color: #e2bc73;
+                    font-weight: bold;
+                    border-bottom: 1px #e2bc73 solid;
+              }
+            }
+        }
+    }
+    .order_list{
+        width: 7.05rem;
+        margin: 0.4rem auto;
+        li{
+            width: 100%;
+            font-size: 0.3rem;
+            background: #fff;
+             margin-bottom: 0.3rem;
+            .order_header{
+                height: 0.7rem;
+                background: #e2bc73;
+                font-size: 0.26rem;
+                line-height: 0.7rem;
+                padding: 0 0.2rem;
+                color: #fff;
+                span{
+                    font-size: 0.3rem;
+                    float: right;
+                }
+            }
+            .product_list{
+                width: 6.7rem;
+                margin: 0 auto;
+                border-bottom:1px solid #e6e6e6;
+                .product{
+                    width: 100%;
+                    line-height: 0.55rem;
+                    overflow: hidden;
+                    .name{
+                        width: 60%;
+                        float: left;
+                        font-size: 0.26rem;
+                        color: #333333;
+                    }
+                    .num{
+                        width: 20%;
+                        float: left;
+                        font-size: 0.26rem;
+                        color: #999999;
+                        text-align: center;
+                    }
+                    .price{
+                       width: 20%;
+                        float: left; 
+                        font-size: 0.26rem;
+                        color: #333333;
+                        text-align: center;
+                    }
+                }
+                .total_price{
+                    font-size: 0.3rem;
+                    text-align:right;
+                    color: #333333;
+                    margin-top: 0.15rem;
+                    line-height: 0.6rem;
+                } 
+            }
+            .btn{
+                width: 100%;
+                padding: 0.2rem ;
+                overflow: hidden;
+                box-sizing:border-box;
+                button{
+                    font-size: 0.26rem;
+                    color: #000000;
+                    border:1px solid #e2bc73;
+                    background:#fff;
+                    float: right;
+                }
+            }
+        }
+    }
+  
+}

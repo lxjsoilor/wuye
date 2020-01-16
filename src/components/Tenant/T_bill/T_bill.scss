@@ -1,0 +1,205 @@
+#middle{
+    .bill_header{
+        height: 0.98rem;
+        background: #F2F2F2;
+        select{
+            width: 2.25rem;
+            height: 0.6rem;
+            background: #fff;
+            float: left;
+            margin: 0.17rem 0.2rem;
+            padding:0 0.1rem;
+        }
+        .title{
+            font-size: 0.28rem;
+            color: #333333;
+            text-align: center;
+            width: 2.5rem;
+            float: left;
+            line-height: 0.98rem;
+        }
+        span{
+            font-size: 0.28rem;
+            color: #999999;
+            width: 2rem;
+            float: left;
+            line-height: 0.98rem;
+            text-align: right;
+            margin: 0rem 0.1rem;
+            display: block;
+        }
+    }
+    .tab_list{
+        width: 100%;
+        height: 1.35rem;
+        .tab{
+            height: 100%;
+            width: 50%;
+            float: left;
+            font-size: 0.24rem;
+            padding: 0.2rem 0;
+            border-bottom: 0.04rem solid #ccc;
+            box-sizing: border-box;
+            .border{
+                width: 100%;
+                height: 0.9rem;
+                
+                border-right: 1px solid #ccc;
+            }
+            .name{
+                 color: #999999;
+                text-align: center;
+            }
+            .price{
+                font-size: 0.36rem;
+                text-align: center;
+                color: #999999;
+                span{
+                    font-size: 0.24rem;
+                }
+            }
+        }
+        .tab_active{
+            border-bottom: 0.04rem solid #e2bc73;
+            .name{
+                color: #e2bc73;
+            }
+            .price{
+                color: #e2bc73;
+            }
+        }
+    }
+    .div_tab{
+        display: none;
+        ul.two{
+            background: #f2f2f2;
+            padding: 0.2rem 0;
+            li{
+                width: 7rem;
+                font-size: 0.3rem;
+                background: #fff;
+                margin: 0 auto;
+                 margin-bottom: 0.3rem;
+                .order_header{
+                    height: 0.7rem;
+                    background: #e2bc73;
+                    font-size: 0.26rem;
+                    line-height: 0.7rem;
+                    padding: 0 0.2rem;
+                    color: #fff;
+                    span{
+                        font-size: 0.3rem;
+                        float: right;
+                    }
+                }
+                .product_list{
+                    width: 6.7rem;
+                    margin: 0 auto;
+                    border-top:1px solid #e6e6e6;
+                    p{
+                        overflow: hidden;
+                        line-height: 0.6rem;
+                        span{
+                            float: left;
+                            font-size: 0.28rem;
+                            color: #333333;
+                            
+                        }
+                        b{
+                            font-weight: normal;
+                            float: right;
+                              font-size: 0.28rem;
+                            color: #333333;
+                            
+                        }
+                       
+                    }
+                }
+                .total_price{
+                    padding: 0 0.2rem;
+                    border-top:1px solid #ccc;
+                    span{
+                        font-size: 0.22rem;
+                        color: #999999;
+                        float: left;
+                    }
+                    font-size: 0.3rem;
+                    text-align:right;
+                    color: #333333;
+                    margin-top: 0.15rem;
+                    line-height: 0.6rem;
+                } 
+                
+            }
+        }
+         ul.one{
+            background: #f2f2f2;
+            padding: 0.2rem 0;
+            li{
+                width: 7rem;
+                font-size: 0.3rem;
+                background: #fff;
+                margin: 0 auto;
+                 margin-bottom: 0.3rem;
+                .order_header{
+                    height: 0.7rem;
+                    background: #e2bc73;
+                    font-size: 0.26rem;
+                    line-height: 0.7rem;
+                    padding: 0 0.2rem;
+                    color: #fff;
+                    span{
+                        font-size: 0.3rem;
+                        float: right;
+                    }
+                }
+                .product_list{
+                    width: 6.7rem;
+                    margin: 0 auto;
+                    border-top:1px solid #e6e6e6;
+                    .p{
+                        overflow: hidden;
+                        line-height: 0.3rem;
+                        padding: 0.15rem 0;
+                        span{
+                            float: left;
+                            font-size: 0.28rem;
+                            color: #333333;
+                            
+                        }
+                        b{
+                            font-weight: normal;
+                            float: right;
+                              font-size: 0.28rem;
+                            color: #333333;
+                            
+                        }
+                        p{
+                            font-size: 0.22rem;
+                            color: #999999;
+                            clear: both;
+                        }
+                    }
+                }
+                .total_price{
+                    padding: 0 0.2rem;
+                    border-top:1px solid #ccc;
+                    span{
+                        font-size: 0.22rem;
+                        color: #999999;
+                        float: left;
+                    }
+                    font-size: 0.3rem;
+                    text-align:right;
+                    color: #333333;
+                    margin-top: 0.15rem;
+                    line-height: 0.6rem;
+                } 
+                
+            }
+        }
+    }
+    .div_active{
+        display: block;
+    }
+}

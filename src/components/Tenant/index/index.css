@@ -1,0 +1,44 @@
+body, html {
+  background: #f2f2f2; }
+
+#middle .banner {
+  width: 100%;
+  padding: 0.15rem 0.22rem 0.2rem;
+  padding-bottom: 0.2rem;
+  background: #fff;
+  overflow: hidden;
+  height: 5rem; }
+#middle .tip {
+  width: 100%;
+  margin: 0.2rem 0;
+  background: #fff;
+  color: #999999;
+  font-size: 0.22rem;
+  padding: 0 0 0 0.2rem;
+  line-height: 0.6rem;
+  height: 0.6rem; }
+#middle .link_list {
+  width: 7.05rem;
+  margin: 0 auto; }
+  #middle .link_list ul {
+    width: 100%; }
+    #middle .link_list ul li {
+      width: 3.37rem;
+      height: 1.8rem;
+      background: #fff;
+      float: left;
+      margin: 0  0.2rem 0.3rem 0;
+      font-size: 0.32rem;
+      color: #333333;
+      border-radius: 6px;
+      text-align: center;
+      line-height: 1.8rem; }
+      #middle .link_list ul li:nth-child(2n) {
+        margin-right: 0; }
+      #middle .link_list ul li img {
+        vertical-align: middle;
+        width: 0.47rem;
+        height: 0.47rem;
+        margin-right: 0.1rem; }
+
+/*# sourceMappingURL=index.css.map */

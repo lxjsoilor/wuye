@@ -1,0 +1,96 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  background: #fff; }
+
+.user_top {
+  width: 100%;
+  height: 3.6rem;
+  background: url(~/../static/img/user_bg.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  position: relative; }
+  .user_top .user_img {
+    width: 1.55rem;
+    height: 1.55rem;
+    border-radius: 50%;
+    border: 0.08rem solid #e9c37d;
+    margin: 0.5rem auto 0.3rem;
+    overflow: hidden;
+    background: #fff; }
+    .user_top .user_img img {
+      width: 100%;
+      height: 100%;
+      float: left; }
+  .user_top .user_name {
+    text-align: center;
+    font-size: 0.36rem;
+    color: #fff;
+    margin: 0rem auto 0.1rem; }
+  .user_top .phone {
+    text-align: center;
+    font-size: 0.24rem;
+    color: #fff; }
+  .user_top .msg {
+    position: absolute;
+    top: 0.24rem;
+    left: 0.3rem; }
+    .user_top .msg img {
+      width: 0.35rem;
+      height: 0.25rem;
+      float: left; }
+    .user_top .msg span {
+      position: absolute;
+      top: -0.05rem;
+      right: -0.1rem;
+      font-size: 0.12rem;
+      color: #fff;
+      width: 0.2rem;
+      height: 0.2rem;
+      background: #FF0000;
+      border-radius: 50%;
+      line-height: 0.2rem;
+      text-align: center; }
+  .user_top .change_id {
+    width: 1.5rem;
+    height: 0.48rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.48rem;
+    font-size: 0.24rem;
+    position: absolute;
+    right: 0.25rem;
+    top: 1.17rem;
+    background: #e7bc6f;
+    border-radius: 5px; }
+
+.url_list {
+  width: 100%; }
+  .url_list ul {
+    width: 100%; }
+    .url_list ul li {
+      width: 33.333%;
+      float: left; }
+      .url_list ul li a {
+        display: block;
+        width: 0.82rem;
+        height: 0.82rem;
+        border-radius: 50%;
+        background: #f9f2e3;
+        margin: 0.7rem auto 0.1rem;
+        text-align: center;
+        line-height: 0.68rem; }
+        .url_list ul li a img {
+          height: 70%;
+          width: 70%;
+          display: inline-block; }
+      .url_list ul li p {
+        text-align: center;
+        font-size: 0.28rem;
+        color: #333333; }
+        .url_list ul li p a {
+          color: #333333;
+          width: 100%;
+          margin: 0; }
+
+/*# sourceMappingURL=user.css.map */

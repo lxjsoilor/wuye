@@ -1,0 +1,44 @@
+#middle{
+    background: #f2f2f2;
+    .go_url{
+        width: 7rem;
+        height: 0.86rem;
+        margin: 0.2rem auto 0.4rem;
+        background: #fff;
+        text-align: center;
+        font-size: 0.3rem;
+        color: #e3a32d;
+        line-height: 0.86rem;
+    }
+    ul{
+        li{
+            width: 7rem;
+            height: 1.2rem;
+            margin: 0 auto 0.32rem;
+            background: #fff;
+            position: relative;
+            .name{
+                padding: 0 0.2rem;
+                margin: 0.2rem 0 0.1rem;
+                 font-size: 0.30rem;
+                 line-height: 0.6rem;
+                color: #333;
+            }
+            .right{
+               position: absolute;
+               right: 0.22rem;
+               top: 50%;
+               margin-top: -0.19rem;
+               font-size: 0.48rem;
+               color: #6c6c6c;
+               height: 0.38rem;
+            }
+            .time{
+                padding: 0 0.2rem;
+                font-size: 0.22rem;
+                line-height: 0.3rem;
+                color: #999999;
+            }
+        }
+    }
+}

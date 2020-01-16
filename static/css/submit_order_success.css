@@ -1,0 +1,20 @@
+.tip { width: 100%; font-size: 24px; color: #606060; }
+.tip span { color: #cc080b; }
+.tip img { width: 33px; height: 33px; float: left; margin-right: 10px; }
+
+.add { font-size: 14px; color: #858585; margin: 15px 0; }
+
+.btn_list { margin-bottom: 300px; }
+.btn_list a { display: inline-block; width: 100px; height: 30px; border: #ee0a0d 1px solid; color: #ee0a0d; text-align: center; line-height: 30px; margin-right: 50px; font-size: 14px; }
+
+@media only screen and (max-width: 750px) { #content-m { padding-top: 0.87rem; padding-bottom: 1.96rem; width: 100%; }
+  #content-m .nn { overflow: hidden; padding-bottom: 0.3rem; border-bottom: 1px solid #ffd6d6; }
+  #content-m .tip-m { line-height: 1.3rem; font-size: 0.36rem; color: #78bb58; }
+  #content-m .tip-m img { width: 0.5rem; height: 0.5rem; display: inline-block; float: left; margin: 0.4rem 0.1rem 0.4rem 0.2rem; }
+  #content-m .p { color: #727272; font-size: 0.28rem; line-height: 0.48rem; }
+  #content-m .p span { float: left; width: 1.5rem; }
+  #content-m .p div { width: 5rem; float: left; }
+  #content-m .link_list { width: 100%; text-align: center; }
+  #content-m .link_list a { width: 2.07rem; height: 0.64rem; text-align: center; display: inline-block; line-height: 0.64rem; border: 1px solid #dddcdc; border-radius: 0.05rem; font-size: 0.28rem; color: #929292; background: #fff; margin-right: 0.3rem; } }
+
+/*# sourceMappingURL=submit_order_success.css.map */

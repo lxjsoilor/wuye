@@ -1,0 +1,202 @@
+.middle_top { padding-top: 50px; }
+
+.middle_top .middle_top_left { float: left; position: relative; width: 500px; height: 610px; margin-right: 50px; }
+
+.middle_top .middle_top_left #smll_box { border: 1px #e0e0e0 solid; display: block; width: 500px; height: 500px; }
+
+.middle_top .middle_top_left #smll_box img { width: 500px; height: 500px; }
+
+.middle_top .middle_top_left #smll_box #box1 { position: absolute; width: 160px; height: 160px; background: #cccccc; opacity: 0.5; display: none; top: 0; }
+
+.middle_top .middle_top_left #box { z-index: 1000; width: 500px; height: 518px; border: 1px solid #999999; overflow: hidden; position: absolute; left: 560px; top: 0; display: none; }
+
+.middle_top .middle_top_left a.prev, .middle_top .middle_top_left a.next { display: inline-block; width: 40px; height: 40px; cursor: pointer; }
+
+.middle_top .middle_top_left a.prev { position: absolute; bottom: 32px; left: -11px; background: url(../img/prev_gray.png) no-repeat; }
+
+.middle_top .middle_top_left a.next { position: absolute; bottom: 32px; right: -11px; background: url(../img/next_gray.png) no-repeat; }
+
+.middle_top .middle_top_left .pro_list { width: 450px; margin: 0 auto; text-align: center; overflow: hidden; position: relative; }
+
+.middle_top .middle_top_left .pro_list ul { display: inline-block; margin-right: -28px; padding: 0; margin-top: 23px; overflow: hidden; position: relative; height: 62px; margin-left: 14px; }
+
+.middle_top .middle_top_left .pro_list ul li { cursor: pointer; width: 62px; height: 62px; float: left; padding: 1px; position: absolute; }
+
+.middle_top .middle_top_left .pro_list ul li.on { border: 1px solid #ff0000; box-sizing: border-box; padding: 0; }
+
+.middle_top .middle_top_left .pro_list ul li:hover { border: 1px solid #ff0000; box-sizing: border-box; padding: 0; }
+
+.middle_top .middle_top_left .pro_list ul li a img { width: 60px; height: 60px; }
+
+.middle_top .middle_top_right { float: left; margin-left: 15px; width: 635px; position: relative; }
+.middle_top .middle_top_right .right_top { width: 190px; height: 68px; position: absolute; right: -15px; top: 0; }
+.middle_top .middle_top_right .right_top img { width: 100%; height: 100%; }
+.middle_top .middle_top_right .canshu { width: 650px; height: 95px; border: 1px #d9d9d9 solid; margin: 30px 0 45px 0; padding: 10px 0; }
+.middle_top .middle_top_right .canshu ul li { width: 50%; line-height: 35px; float: left; padding: 0 10px; box-sizing: border-box; color: #666666; }
+.middle_top .middle_top_right .canshu ul li span { color: #ee0a0d; }
+.middle_top .middle_top_right .pingfen { width: 650px; height: 45px; font-size: 14px; color: #666666; line-height: 30px; margin: 10px 0; }
+.middle_top .middle_top_right .pingfen .btn { margin-right: 25px; float: left; width: 100px; height: 30px; font-size: 14px; text-align: center; line-height: 30px; color: #ee0a0d; border: 1px #ee0a0d solid; border-radius: 5px; }
+.middle_top .middle_top_right .btn_list { width: 650px; height: 45px; font-size: 14px; color: #666666; line-height: 30px; }
+.middle_top .middle_top_right .btn_list .btn { margin-right: 25px; float: left; width: 100px; height: 30px; font-size: 14px; text-align: center; line-height: 30px; color: #fff; background: #ee0a0d; border-radius: 5px; }
+.middle_top .middle_top_right .num { width: 100%; margin-bottom: 40px; clear: both; overflow: hidden; }
+.middle_top .middle_top_right .num .label { width: 70px; float: left; line-height: 26px; }
+.middle_top .middle_top_right .num .num_open { width: 200px; float: left; }
+.middle_top .middle_top_right .num .num_open .add { width: 55px; background: #e5e5e5; text-align: center; line-height: 26px; float: left; }
+.middle_top .middle_top_right .num .num_open .input { width: 45px; height: 26px; border: 1px #e5e5e5 solid; box-sizing: border-box; float: left; }
+.middle_top .middle_top_right .num .num_open .input input { width: 100%; height: 100%; border: none; text-align: center; background: none; }
+.middle_top .middle_top_right .num .num_open .minu { width: 55px; background: #e5e5e5; text-align: center; line-height: 26px; float: left; }
+.middle_top .middle_top_right .zhishu { width: 650px; height: 181px; }
+.middle_top .middle_top_right .zhishu .left { float: left; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list { line-height: 45px; height: 45px; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .label { float: left; font-size: 14px; color: #333333; margin-top: 12px; margin-left: 12px; width: 70px; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess { width: 216px; height: 12px; float: left; margin-top: 28px; background: #dadada; position: relative; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .progess_children { width: 70%; height: 100%; background: #e67373; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .red { background: #e67373; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .green { background: #73e673; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .blue { background: #7373e6; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .progess_num { width: 100%; position: absolute; top: 12px; left: 0; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .progess_num ul { width: 130%; overflow: hidden; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .progess_num ul li { width: 18%; float: left; font-size: 10px; color: #999999; height: 12px; line-height: 12px; text-align: left; }
+.middle_top .middle_top_right .zhishu .left .zhishu_list .fenshu { float: left; font-size: 14px; color: #333333; margin-top: 12px; margin-left: 12px; }
+.middle_top .middle_top_right .zhishu .right { float: left; margin: 27px 0 0 80px; }
+
+.middle_top .middle_top_right .title { font-size: 26px; color: #1b1b1b; line-height: 25px; margin: 0; line-height: 70px; }
+.middle_top .middle_top_right .title span a { font-size: 14px; color: #036595; }
+
+.middle_top .middle_top_right .price { font-size: 12px; color: #666666; line-height: 25px; margin: 0; }
+.middle_top .middle_top_right .price span { font-size: 24px; color: #ee0a0d; }
+
+.middle_top .middle_top_right .button { width: 430px; margin-top: 30px; }
+
+.middle_top .middle_top_right .button a { cursor: pointer; display: inline-block; text-align: center; line-height: 50px; width: 200px; height: 50px; border: none; background: #FF0000; margin-right: 10px; padding: 0; color: #FFFFFF; }
+
+.chat { clear: both; width: 100%; overflow: hidden; border: 1px #e0e0e0 solid; margin-bottom: 30px; }
+.chat .chat_title { background: #F2F2F2; height: 40px; width: 100%; border-bottom: 1px #e0e0e0 solid; color: #000000; font-size: 18px; font-weight: bold; line-height: 40px; padding-left: 15px; box-sizing: border-box; }
+.chat .cat_list { width: 100%; }
+.chat .cat_list ul { width: 100%; text-align: center; margin: 25px 0; }
+.chat .cat_list ul li { display: inline-block; width: 122px; height: 35px; text-align: center; line-height: 35px; background: #f0f0f0; color: #4a4a4a; margin-right: 3px; font-size: 14px; }
+.chat .cat_list ul li.active { background: #eb1e24; color: #fff; }
+.chat .chat_name p { text-align: center; color: #000000; font-size: 18px; }
+.chat .chat_name span { font-size: 12px; color: #aaa9a9; display: block; text-align: center; }
+.chat .timepick { width: 100%; text-align: center; color: #aaa9a9; margin-bottom: 30px; }
+.chat .timepick .btn { display: inline-block; width: 135px; height: 32px; border: 1px #aaa9a9 solid; border-radius: 5px; margin: 0 22px; }
+.chat .timepick .btn input { width: 100%; border: none; background: none; line-height: 32px; text-align: center; color: #aaa9a9; }
+.chat .timepick .submit { width: 130px; height: 32px; border-radius: 5px; display: inline-block; background: #ee0a0d; line-height: 32px; color: #fff; }
+.chat .table { width: 1177px; overflow: hidden; margin: 0 auto; border: 1px #e0e0e0 solid; }
+.chat .table ul { width: 100%; }
+.chat .table ul li { float: left; width: 15%; height: 40px; text-align: center; line-height: 40px; color: #696555; border-bottom: 1px #e0e0e0 solid; border-right: 1px #e0e0e0 solid; box-sizing: border-box; }
+.chat .table ul li:nth-child(1) { width: 25%; }
+.chat .table ul li.green { color: #4ab36f; }
+.chat .table ul li.red { color: #ec1d25; }
+.chat .table ul li:last-child { border-right: none; }
+.chat .table1 { width: 1177px; overflow: hidden; margin: 0 auto; border: 1px #e0e0e0 solid; }
+.chat .table1 ul { width: 100%; overflow: hidden; }
+.chat .table1 ul:nth-child(1) { background: #e9e9e9; }
+.chat .table1 ul:nth-child(2n-1) { background: #f5f5f5; }
+.chat .table1 ul li { float: left; width: 14%; height: 40px; text-align: center; line-height: 40px; color: #666666; box-sizing: border-box; }
+.chat .table1 ul li:nth-child(1) { width: 16%; }
+.chat .table1 ul li.green { color: #4ab36f; }
+.chat .table1 ul li.red { color: #ec1d25; }
+.chat .table1 ul li:last-child { border-right: none; }
+.chat .table2 { width: 1177px; overflow: hidden; margin: 30px auto; border: 1px #e0e0e0 solid; }
+.chat .table2 ul { width: 100%; overflow: hidden; }
+.chat .table2 ul:nth-child(2n-1) { background: #f5f5f5; }
+.chat .table2 ul li { float: left; width: 80%; height: 40px; text-align: left; line-height: 40px; color: #666666; box-sizing: border-box; }
+.chat .table2 ul li:nth-child(1) { width: 20%; padding: 0 20px; box-sizing: border-box; }
+.chat .table2 ul li:last-child { border-right: none; }
+.chat .btn_other { width: 302px; height: 40px; background: #e6e6e6; text-align: center; line-height: 40px; color: #333333; font-size: 14px; margin: 24px auto; }
+.chat .eva { width: 1177px; margin: 22px auto; padding: 0 38px; box-sizing: border-box; overflow: hidden; background: #f5f5f5; }
+.chat .eva .zhishu { width: 100%; height: 181px; margin: 35px 0; }
+.chat .eva .zhishu .left { float: left; }
+.chat .eva .zhishu .left .zhishu_list { line-height: 45px; height: 45px; }
+.chat .eva .zhishu .left .zhishu_list .label { float: left; font-size: 14px; color: #333333; margin-top: 12px; margin-left: 12px; width: 70px; line-height: 22px; }
+.chat .eva .zhishu .left .zhishu_list .progess { width: 440px; height: 12px; float: left; margin-top: 18px; background: #dadada; position: relative; }
+.chat .eva .zhishu .left .zhishu_list .progess .progess_children { width: 70%; height: 100%; background: #e67373; }
+.chat .eva .zhishu .left .zhishu_list .progess .red { background: #e67373; }
+.chat .eva .zhishu .left .zhishu_list .progess .green { background: #73e673; }
+.chat .eva .zhishu .left .zhishu_list .progess .blue { background: #7373e6; }
+.chat .eva .zhishu .left .zhishu_list .progess .progess_num { width: 100%; position: absolute; top: 12px; left: 0; }
+.chat .eva .zhishu .left .zhishu_list .progess .progess_num ul { width: 130%; overflow: hidden; }
+.chat .eva .zhishu .left .zhishu_list .progess .progess_num ul li { width: 18%; float: left; font-size: 10px; color: #999999; height: 12px; line-height: 12px; text-align: left; }
+.chat .eva .zhishu .left .zhishu_list .fenshu { float: left; font-size: 14px; color: #333333; margin-top: 12px; margin-left: 12px; line-height: 22px; }
+.chat .eva .zhishu .right { float: left; margin: 10px 0 0 80px; }
+.chat .eva .eva_text { width: 1100px; height: 140px; display: block; margin: 0 auto; background: #fff; resize: none; border: none; line-height: 25px; padding: 10px 15px; box-sizing: border-box; }
+.chat .eva .orther_btn { width: 130px; height: 32px; border-radius: 5px; margin: 25px auto; display: block; background: #ee0a0d; line-height: 32px; color: #fff; text-align: center; }
+.chat .eva_list { width: 1175px; margin: 0 auto; }
+.chat .eva_list ul li { padding-top: 26px; height: 155px; border-bottom: 1px #e0e0e0 solid; overflow: hidden; }
+.chat .eva_list ul li .user_img { float: left; width: 130px; }
+.chat .eva_list ul li .user_img img { width: 50px; height: 50px; border-radius: 50%; display: block; margin: 0 auto 12px; }
+.chat .eva_list ul li .user_img p { color: #787878; font-size: 14px; text-align: center; }
+.chat .eva_list ul li .right { float: left; width: 1045px; }
+.chat .eva_list ul li .right .eva_title { width: 100%; height: 30px; overflow: hidden; background: #f5f5f5; }
+.chat .eva_list ul li .right .eva_title .progess { width: 216px; height: 12px; float: left; margin-top: 9px; margin-left: 20px; background: #dadada; position: relative; }
+.chat .eva_list ul li .right .eva_title .progess .progess_children { width: 70%; height: 100%; background: #ffcc33; }
+.chat .eva_list ul li .right .eva_title .fenshu { float: left; font-size: 14px; color: #999999; margin-top: 8px; margin-left: 12px; }
+.chat .eva_list ul li .right .eva_content { width: 100%; }
+.chat .eva_list ul li .right .eva_content p { font-size: 14px; color: #666666; line-height: 40px; padding: 10px 0; height: 100px; box-sizing: border-box; }
+.chat .eva_list ul li .right .eva_content span.time { float: left; color: #a5a5a5; font-size: 12px; }
+.chat .eva_list ul li .right .eva_content span.zan { float: right; color: #a5a5a5; font-size: 12px; }
+.chat .eva_list .page { margin-left: 230px; clear: both; margin-bottom: 45px; margin-top: 45px; overflow: hidden; }
+.chat .eva_list .page span { display: block; float: left; color: #4c4c4c; line-height: 30px; margin-right: 15px; }
+.chat .eva_list .page ul { float: left; }
+.chat .eva_list .page ul li { padding: 0px 15px; height: 30px; border: 1px #e1e1e1 solid; cursor: pointer; float: left; margin-right: 10px; line-height: 30px; text-align: center; color: #4c4c4c; }
+.chat .eva_list .page ul li.on { background: #ee0a0d; color: #fff; border: none; }
+
+@media only screen and (max-width: 750px) { #contant-m { padding-top: 0.87rem; padding-bottom: 1.96rem; width: 100%; }
+  #contant-m .swiper-container { width: 100%; height: 7rem; }
+  #contant-m .pro_info { width: 100%; border-bottom: 0.15rem solid #f2f2f2; }
+  #contant-m .pro_info .name { font-size: 0.3rem; color: #000000; line-height: 0.4rem; }
+  #contant-m .pro_info .price { color: #eb1e24; font-size: 0.36rem; line-height: 0.78rem; }
+  #contant-m .pro_info .attr { font-size: 0.2rem; color: #b5b5b5; }
+  #contant-m .pro_info .num { margin: 0.43rem 0; font-size: 0.3rem; color: #000000; overflow: hidden; }
+  #contant-m .pro_info .num .num_bun { float: right; width: 1.98rem; height: 0.46rem; }
+  #contant-m .pro_info .num .num_bun .minu, #contant-m .pro_info .num .num_bun .add { width: 0.64rem; float: left; height: 100%; background: #dfdfdf; text-align: center; }
+  #contant-m .pro_info .num .num_bun input { width: 0.7rem; height: 100%; float: left; text-align: center; border: none; background: #f5f5f5; }
+  #contant-m .common-title { width: 100%; height: 0.75rem; line-height: 0.75rem; font-size: 0.28rem; font-weight: bold; color: #000; }
+  #contant-m .hangqing-m { width: 100%; padding-bottom: 0.3rem; border-bottom: 0.15rem #f0f0f0 solid; }
+  #contant-m .hangqing-m .cat_list-m { width: 100%; }
+  #contant-m .hangqing-m .cat_list-m ul { width: 100%; text-align: center; margin: 0.3rem 0; font-size: 0; }
+  #contant-m .hangqing-m .cat_list-m ul li { display: inline-block; width: 1.3rem; height: 0.48rem; text-align: center; line-height: 0.48rem; background: #f0f0f0; color: #4a4a4a; margin-right: 0.05rem; font-size: 0.2rem; }
+  #contant-m .hangqing-m .cat_list-m ul li.active { background: #eb1e24; color: #fff; }
+  #contant-m .hangqing-m .chat_title-m { color: #000000; font-size: 0.24rem; text-align: center; }
+  #contant-m .hangqing-m .chat_tip { color: #aaa9a9; font-size: 0.18rem; text-align: center; }
+  #contant-m .hangqing-m #line1 { width: 100%; height: 2.8rem; }
+  #contant-m .hangqing-m .timepick-m { width: 100%; text-align: center; color: #aaa9a9; font-size: 0.24rem; margin-bottom: 0.3rem; }
+  #contant-m .hangqing-m .timepick-m .btn { display: inline-block; width: 1.35rem; height: 0.32rem; border: 1px #aaa9a9 solid; border-radius: 0.05rem; margin: 0 0.22rem; }
+  #contant-m .hangqing-m .timepick-m .btn input { width: 100%; border: none; background: none; line-height: 0.32rem; text-align: center; color: #aaa9a9; }
+  #contant-m .hangqing-m .timepick-m .submit { width: 1.3rem; height: 0.32rem; border-radius: 0.05rem; display: inline-block; background: #ee0a0d; line-height: 0.32rem; color: #fff; }
+  #contant-m .hangqing-m .table { width: 100%; overflow: hidden; margin: 0 auto; border: 1px #e0e0e0 solid; }
+  #contant-m .hangqing-m .table ul { width: 100%; }
+  #contant-m .hangqing-m .table ul li { float: left; width: 15%; height: 0.4rem; font-size: 0.18rem; text-align: center; line-height: 0.4rem; color: #696555; border-bottom: 1px #e0e0e0 solid; border-right: 1px #e0e0e0 solid; box-sizing: border-box; }
+  #contant-m .hangqing-m .table ul li:nth-child(1) { width: 25%; }
+  #contant-m .hangqing-m .table ul li.green { color: #4ab36f; }
+  #contant-m .hangqing-m .table ul li.red { color: #ec1d25; }
+  #contant-m .hangqing-m .table ul li:last-child { border-right: none; }
+  #contant-m .xiangqing-m { width: 100%; padding-bottom: 0.3rem; border-bottom: 0.15rem #f0f0f0 solid; }
+  #contant-m .xiangqing-m .table2 { width: 100%; overflow: hidden; margin: 0 auto; border: 1px #e0e0e0 solid; }
+  #contant-m .xiangqing-m .table2 ul { width: 100%; overflow: hidden; }
+  #contant-m .xiangqing-m .table2 ul:nth-child(2n-1) { background: #f5f5f5; }
+  #contant-m .xiangqing-m .table2 ul li { float: left; width: 80%; height: 0.4rem; font-size: 0.18rem; text-align: left; line-height: 0.4rem; color: #666666; box-sizing: border-box; }
+  #contant-m .xiangqing-m .table2 ul li:nth-child(1) { width: 20%; padding: 0 0.2rem; box-sizing: border-box; }
+  #contant-m .xiangqing-m .table2 ul li:last-child { border-right: none; }
+  #contant-m .eva_input { width: 100%; height: 0.64rem; background: #f0f0f0; }
+  #contant-m .eva_input input { float: left; width: 5.8rem; height: 0.48rem; background: #fff; border-radius: 0.48rem; margin: 0.08rem; border: none; padding: 0 0.4rem; box-sizing: border-box; }
+  #contant-m .eva_input button { float: right; width: 1.2rem; height: 0.48rem; text-align: center; background: #eb1e24; color: #fff; margin: 0.08rem 0.15rem 0.08rem 0.08rem; line-height: 0.48rem; border: none; border-radius: 0.1rem; }
+  #contant-m .eva_list-m { width: 100%; }
+  #contant-m .eva_list-m ul li { width: 100%; font-size: 0.18rem; overflow: hidden; border-bottom: 1px solid #fcdbdc; }
+  #contant-m .eva_list-m ul li .img { width: 0.85rem; float: left; }
+  #contant-m .eva_list-m ul li .img img { width: .47rem; height: 0.47rem; margin: 0.15rem; }
+  #contant-m .eva_list-m ul li .name { width: 6.1rem; float: left; font-size: 0.24rem; color: #787878; margin-bottom: 0.08rem; }
+  #contant-m .eva_list-m ul li .time { width: 6.1rem; float: left; font-size: 0.18rem; color: #a5a5a5; margin-bottom: 0.05rem; }
+  #contant-m .eva_list-m ul li .eva_text-m { width: 6.1rem; float: left; font-size: 0.22rem; color: #1d1d1d; line-height: 0.38rem; margin-bottom: 0.1rem; }
+  #contant-m .btn_submit { width: 100%; height: 0.97rem; background: #f0f0f0; position: fixed; bottom: 0.98rem; left: 0; padding: 0 0.20rem; box-sizing: border-box; }
+  #contant-m .btn_submit button { width: 3.5rem; height: 0.64rem; float: left; border-radius: 0.64rem; border: none; color: #fff; margin-top: 0.17rem; }
+  #contant-m .btn_submit button:nth-child(1) { margin-right: 0.05rem; background: #ebb41e; }
+  #contant-m .btn_submit button:nth-child(2) { background: #eb1e24; }
+  #contant-m .page-m { width: 100%; margin: 0.8rem 0 0.3rem 0; }
+  #contant-m .page-m ul { width: 100%; text-align: center; font-size: 0; }
+  #contant-m .page-m ul li { width: 0.48rem; height: 0.48rem; border: 1px solid #c7c7c7; border-radius: 0.05rem; line-height: 0.48rem; text-align: center; display: inline-block; font-size: 0.24rem; color: #c7c7c7; margin-right: 0.15rem; }
+  #contant-m .page-m ul li.on { color: #fff; background: #eb1e24; border: 1px solid #eb1e24; }
+  #contant-m .page-m ul li:nth-child(1), #contant-m .page-m ul li:last-child { width: 0.75rem; } }
+
+/*# sourceMappingURL=shop_detail.css.map */

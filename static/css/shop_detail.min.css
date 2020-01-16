@@ -1,0 +1,45 @@
+.middle_top{padding-top:50px}
+.middle_top .middle_top_left{float:left;position:relative;width:500px;height:610px;margin-right:50px}
+.middle_top .middle_top_left #smll_box{border:1px #e0e0e0 solid;display:block;width:500px;height:500px}
+.middle_top .middle_top_left #smll_box img{width:500px;height:500px}
+.middle_top .middle_top_left #smll_box #box1{position:absolute;width:160px;height:160px;background:#ccc;opacity:.5;display:none;top:0}
+.middle_top .middle_top_left #box{z-index:1000;width:500px;height:518px;border:1px solid #999;overflow:hidden;position:absolute;left:560px;top:0;display:none}
+.middle_top .middle_top_left a.next,.middle_top .middle_top_left a.prev{display:inline-block;width:40px;height:40px;cursor:pointer}
+.middle_top .middle_top_left a.prev{position:absolute;bottom:32px;left:-11px;background:url(../img/prev_gray.png) no-repeat}
+.middle_top .middle_top_left a.next{position:absolute;bottom:32px;right:-11px;background:url(../img/next_gray.png) no-repeat}
+.middle_top .middle_top_left .pro_list{width:450px;margin:0 auto;text-align:center;overflow:hidden;position:relative}
+.middle_top .middle_top_left .pro_list ul{display:inline-block;margin-right:-28px;padding:0;margin-top:23px;overflow:hidden;position:relative;height:62px;margin-left:14px}
+.middle_top .middle_top_left .pro_list ul li{cursor:pointer;width:62px;height:62px;float:left;padding:1px;position:absolute}
+.middle_top .middle_top_left .pro_list ul li.on,.middle_top .middle_top_left .pro_list ul li:hover{border:1px solid red;box-sizing:border-box;padding:0}
+.middle_top .middle_top_left .pro_list ul li a img{width:60px;height:60px}
+.middle_top .middle_top_right{float:left;margin-left:15px;width:390px}
+.middle_top .middle_top_right .canshu{width:650px;height:95px;border:1px #d9d9d9 solid;margin:30px 0 45px;padding:10px 0}
+.middle_top .middle_top_right .canshu ul li{width:50%;line-height:35px;float:left;padding:0 10px;box-sizing:border-box;color:#666}
+.middle_top .middle_top_right .canshu ul li span{color:#ee0a0d}
+.middle_top .middle_top_right .num{width:100%;margin-bottom:40px;clear:both;overflow:hidden}
+.middle_top .middle_top_right .num .label{width:70px;float:left;line-height:26px}
+.middle_top .middle_top_right .num .num_open{width:200px;float:left}
+.middle_top .middle_top_right .num .num_open .add{width:55px;background:#e5e5e5;text-align:center;line-height:26px;float:left}
+.middle_top .middle_top_right .num .num_open .input{width:45px;height:26px;border:1px #e5e5e5 solid;box-sizing:border-box;float:left}
+.middle_top .middle_top_right .num .num_open .input input{width:100%;height:100%;border:none;text-align:center;background:0 0}
+.middle_top .middle_top_right .num .num_open .minu{width:55px;background:#e5e5e5;text-align:center;line-height:26px;float:left}
+.middle_top .middle_top_right .zhishu{width:650px;height:181px;border:1px #d9d9d9 solid}
+.middle_top .middle_top_right .zhishu .left{float:left}
+.middle_top .middle_top_right .zhishu .left .zhishu_list{line-height:45px;height:45px}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .label{float:left;font-size:14px;color:#333;margin-top:12px;margin-left:12px;width:70px}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess{width:216px;height:12px;float:left;margin-top:28px;background:#dadada;position:relative}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .progess_children{width:70%;height:100%;background:#e67373}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .red{background:#e67373}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .green{background:#73e673}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .blue{background:#7373e6}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .progess_num{width:100%;position:absolute;top:12px;left:0}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .progess_num ul{width:130%;overflow:hidden}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .progess .progess_num ul li{width:18%;float:left;font-size:10px;color:#999;height:12px;line-height:12px;text-align:left}
+.middle_top .middle_top_right .zhishu .left .zhishu_list .fenshu{float:left;font-size:14px;color:#333;margin-top:12px;margin-left:12px}
+.middle_top .middle_top_right .zhishu .right{float:left;margin:27px 0 0 80px}
+.middle_top .middle_top_right .title{font-size:26px;color:#1b1b1b;margin:0;line-height:70px}
+.middle_top .middle_top_right .price{font-size:12px;color:#666;line-height:25px;margin:0}
+.middle_top .middle_top_right .price span{font-size:24px;color:#ee0a0d}
+.middle_top .middle_top_right .button{width:430px;margin-top:30px}
+.middle_top .middle_top_right .button a{cursor:pointer;display:inline-block;text-align:center;line-height:50px;width:200px;height:50px;border:none;background:red;margin-right:10px;padding:0;color:#FFF}
+.chat{clear:both;width:1110px}

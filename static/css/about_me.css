@@ -1,0 +1,9 @@
+.about_text { width: 100%; margin: 50px 0; }
+.about_text p { font-size: 16px; color: #666666; line-height: 40px; margin-bottom: 30px; }
+
+@media only screen and (max-width: 750px) { #contant-m { padding-top: 0.87rem; padding-bottom: 0.98rem; width: 100%; }
+  #contant-m .title { font-size: .36rem; text-align: center; line-height: 1.2rem; }
+  #contant-m .p { color: #616161; font-size: .26rem; line-height: 0.45rem; }
+  #contant-m img { width: 100%; } }
+
+/*# sourceMappingURL=about_me.css.map */

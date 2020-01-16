@@ -1,0 +1,60 @@
+.cart_list { width: 100%; margin-bottom: 60px; }
+.cart_list .cart_head { width: 100%; height: 40px; background: #f2f2f2; }
+.cart_list .cart_head .common_cart { float: left; }
+.cart_list .cart_head .common_cart p { line-height: 40px; font-size: 12px; }
+.cart_list .cart_head .check { line-height: 40px; width: 75px; font-size: 12px; }
+.cart_list .cart_head .check img { display: inline-block; margin: 0 5px 0 10px; }
+.cart_list .cart_head .pro_info { width: 310px; padding-left: 20px; box-sizing: border-box; }
+.cart_list .cart_head .attr { width: 200px; text-align: center; }
+.cart_list .cart_head .price { width: 130px; text-align: center; }
+.cart_list .cart_head .num { width: 200px; text-align: center; }
+.cart_list .cart_head .open { width: 150px; text-align: center; }
+.cart_list ul li { width: 100%; height: 100px; border: 1px solid #f2f2f2; }
+.cart_list ul li .common_cart { float: left; }
+.cart_list ul li .common_cart p { line-height: 40px; font-size: 14px; color: #7f7f7f; margin: 23px 0 0 0; }
+.cart_list ul li .common_cart p.red { color: #ee0a0d; }
+.cart_list ul li .check { width: 75px; height: 100%; }
+.cart_list ul li .check img { display: inline-block; margin: 30px 12px; }
+.cart_list ul li .pro_info { width: 310px; }
+.cart_list ul li .pro_info img { float: left; width: 75px; height: 75px; margin: 12px; }
+.cart_list ul li .pro_info p { float: left; width: 200px; margin: 23px 0 0 0; }
+.cart_list ul li .attr { width: 200px; text-align: center; }
+.cart_list ul li .price { width: 130px; text-align: center; }
+.cart_list ul li .num { width: 200px; text-align: center; }
+.cart_list ul li .num .num_open { width: 155px; overflow: hidden; margin: 22px auto 0; }
+.cart_list ul li .num .num_open .add { width: 55px; background: #e5e5e5; text-align: center; line-height: 26px; float: left; }
+.cart_list ul li .num .num_open .input { width: 45px; height: 26px; border: 1px #e5e5e5 solid; box-sizing: border-box; float: left; }
+.cart_list ul li .num .num_open .input input { width: 100%; height: 100%; border: none; text-align: center; background: none; }
+.cart_list ul li .num .num_open .minu { width: 55px; background: #e5e5e5; text-align: center; line-height: 26px; float: left; }
+.cart_list ul li .open { width: 150px; text-align: center; }
+.cart_list .cart_bottom { width: 100%; height: 40px; background: #f2f2f2; }
+.cart_list .cart_bottom .common_cart { float: left; }
+.cart_list .cart_bottom .common_cart p { line-height: 40px; font-size: 12px; }
+.cart_list .cart_bottom .check { line-height: 40px; width: 75px; font-size: 12px; }
+.cart_list .cart_bottom .check img { display: inline-block; margin: 0 5px 0 10px; }
+.cart_list .cart_bottom .pro_info { width: 550px; padding-left: 20px; box-sizing: border-box; }
+.cart_list .cart_bottom .all_num { width: 200px; padding-left: 20px; box-sizing: border-box; }
+.cart_list .cart_bottom .total { width: 200px; padding-left: 20px; box-sizing: border-box; color: #666666; }
+.cart_list .cart_bottom .total span { font-size: 20px; color: #ee0a0d; }
+.cart_list .cart_bottom .sumbit { float: right; width: 150px; text-align: center; color: #fff; background: #ee0a0d; font-weight: bold; height: 100%; border: none; line-height: 40px; }
+
+@media only screen and (max-width: 750px) { #contant-m { padding-top: 0.87rem; padding-bottom: 0.98rem; width: 100%; }
+  #contant-m .cart_list-m { width: 100%; }
+  #contant-m .cart_list-m ul { width: 100%; }
+  #contant-m .cart_list-m ul li { width: 100%; height: 2.6rem; border-bottom: 1px solid #ffd6d6; }
+  #contant-m .cart_list-m ul li .check { background: url(../img/check.png) no-repeat; background-position: left center; width: 0.5rem; height: 100%; float: left; }
+  #contant-m .cart_list-m ul li .img { width: 1.96rem; height: 100%; float: left; }
+  #contant-m .cart_list-m ul li .img img { width: 1.80rem; height: 1.80rem; float: left; margin: 0.08rem; }
+  #contant-m .cart_list-m ul li .pro_Info { font-size: .3rem; color: #000; float: left; width: 4.5rem; }
+  #contant-m .cart_list-m ul li .pro_Info .price { color: #eb1e24; }
+  #contant-m .cart_list-m ul li .pro_Info .attr-m { font-size: .2rem; color: #b5b5b5; margin-bottom: 0.9rem; }
+  #contant-m .cart_list-m ul li .pro_Info .num { width: 1.7rem; height: .43rem; float: right; }
+  #contant-m .cart_list-m ul li .pro_Info .num .minu, #contant-m .cart_list-m ul li .pro_Info .num .add { width: .56rem; float: left; height: 100%; text-align: center; background: #dfdfdf; line-height: .43rem; }
+  #contant-m .cart_list-m ul li .pro_Info .num input { width: 0.58rem; height: 100%; border: none; float: left; text-align: center; line-height: .43rem; color: #000; background: #f5f5f5; font-size: 0.24rem; }
+  #contant-m .cart_bottom-m { width: 100%; height: 0.98rem; background: #f0f0f0; position: fixed; left: 0; bottom: 0; }
+  #contant-m .cart_bottom-m .check { background: url(../img/check.png) no-repeat; background-position: left center; width: 1.5rem; height: 100%; float: left; font-size: .28rem; line-height: .98rem; padding-left: .3rem; box-sizing: border-box; margin-left: 0.3rem; }
+  #contant-m .cart_bottom-m .total { font-size: .28rem; color: #3c3c3c; float: left; line-height: .98rem; margin-left: 0.7rem; }
+  #contant-m .cart_bottom-m .total span { color: #eb1e24; }
+  #contant-m .cart_bottom-m .pay { width: 2.25rem; height: .64rem; float: right; margin: .17rem; border-radius: .64rem; background: #eb1e24; line-height: 0.64rem; color: #fff; font-size: .28rem; text-align: center; } }
+
+/*# sourceMappingURL=my_cart.css.map */

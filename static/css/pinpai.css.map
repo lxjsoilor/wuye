@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,yCAAwC,GACpC,UAAU,GACL,WAAW,EAAE,OAAO,EACrB,cAAc,EAAE,OAAO,EACvB,KAAK,EAAE,IAAI",
+"sources": ["pinpai.scss"],
+"names": [],
+"file": "pinpai.css"
+}

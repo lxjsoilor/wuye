@@ -1,0 +1,108 @@
+ .page{
+        margin-left: 230px;
+            clear: both;
+            margin-bottom: 45px;
+            margin-top: 45px;
+            overflow: hidden;
+            span{
+                display: block;
+                float: left;
+                color: #4c4c4c;
+                line-height: 30px;
+                margin-right: 15px;
+            }
+            ul{
+                float: left;
+                li{
+                    padding: 0px 15px;
+                    height: 30px;
+                    border:1px #e1e1e1 solid;
+                    cursor: pointer;
+                    float: left;
+                    margin-right: 10px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #4c4c4c;
+                    &.on{
+                        background: #ee0a0d;
+                        color: #fff;
+                        border:none
+                    }
+                }
+            }
+        }
+
+
+
+@media only screen and (max-width:750px){
+    #contant-m{
+        padding-top: 0.87rem;
+        padding-bottom: 0.98rem;
+        width: 100%;
+        .zixun_list-m{
+            width:100%;
+            ul{
+                width:100%;
+                li{
+                    width:100%;
+                    border-bottom:#fcdbdc solid 1px;
+                    overflow:hidden;
+                    .img{
+                        float:left;
+                        width:2.15rem;
+                        height:1.3rem;
+                        float:left;
+                        margin:.3rem .15rem 0.15rem 0;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                    .zixun_title{
+                        font-size:0.26rem;
+                        color:#3b3b3b;
+                        line-height:.38rem;
+                        float:left;
+                        width:4.6rem;
+                         margin:.3rem 0 0.15rem 0;
+                    }
+                    .time{
+                        font-size:.22rem;
+                        color:#a9a9a9;
+                        float:left;
+                    }
+                }
+            }
+        }
+        .page-m{
+            width:100%;
+           margin:0.8rem 0 0.3rem 0;
+            ul{
+                width:100%;
+                text-align:center;
+                font-size: 0;
+                li{
+                    width:0.48rem;
+                    height:0.48rem;
+                    border:1px solid #c7c7c7;
+                    border-radius:0.05rem;
+                    line-height:0.48rem;
+                    text-align:center;
+                    display:inline-block;
+                    font-size:0.24rem;
+                    color:#c7c7c7;
+                    margin-right:0.15rem;
+                    &.on{
+                        color:#fff;
+                        background:#eb1e24;
+                         border:1px solid #eb1e24;
+                    }
+                    &:nth-child(1), &:last-child{
+                        width:0.75rem;
+
+                    }
+                }
+            }
+        }
+    }
+}

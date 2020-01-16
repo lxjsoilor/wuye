@@ -1,0 +1,156 @@
+#middle{
+    background:#fff;
+    .item{
+        border-bottom: 0.2rem #F2F2F2 solid;
+        .item_title{
+            font-size: 0.3rem;
+            color: #333333;
+            font-weight: bold;
+            border-left: 0.08rem solid #e2bc73;
+            line-height: 0.38rem;
+            padding:0 0.25rem;
+            margin: 0.25rem 0;
+            margin-left: 0.25rem;
+            span{
+                color: #e3a32d;
+                line-height: 0.38rem;
+                font-weight: normal;
+                float: right;
+                a{
+                    color: #e3a32d;
+                }
+                img{
+                    width: 0.3rem;
+                    height: 0.3rem;
+                }
+            }
+            
+        }
+        .house_detail{
+            width:100%;
+            border-bottom: 0.24rem solid #f2f2f2;
+            height:2.7rem;
+            
+            .img{
+                float:left;
+                margin: 0.3rem 0.1rem 0 0.3rem;
+                img{
+                    display:block;
+                    width:3.25rem;
+                    height: 1.9rem;
+                }
+            }
+            .house_name{
+                width: 3.75rem;
+                margin: 0.3rem 0 0 0 ;
+                float: left;
+                height: 100%;
+                .price{
+                    width: 100%;
+                    color: #e60000;
+                    font-size: 0.34rem;
+                    line-height: 0.6rem;
+                    
+                }
+                .position{
+                    width: 100%;
+                    color: #333333;
+                    line-height: 0.55rem;
+                    font-size: 0.3rem;
+                }
+                .attr{
+                    width: 100%;
+                    color: #999999;
+                    font-size: 0.24rem;
+                    line-height: 0.45rem;
+                }
+                .address{
+                    line-height: 0.45rem;
+                    width: 100%;
+                    color: #999999;
+                    font-size: 0.24rem;
+                    img{
+                        width:0.18rem;
+                        height: 0.22rem;
+                        margin-left: 0.08rem;
+                        
+                    }
+                }
+                
+                
+            }
+        }
+        
+        
+        .bespeak_floor{
+            width:100%;
+            padding: 0 0.3rem;
+            box-sizing: border-box;
+            border-bottom: 0.24rem solid #f2f2f2;
+            .p{
+                line-height: 0.8rem;
+                width:100%;
+                color: #333333;
+                font-size: 0.3rem;
+                img{
+                    width:0.18rem;
+                    height: 0.22rem;
+                    margin-left: 0.08rem;
+                    
+                }
+                span{
+                    display: inline-block;
+                    background: #F2F2F2;
+                    width: 0.6rem;
+                    height: 0.6rem;
+                    text-align: center;
+                    line-height: 0.6rem;
+                }
+                input{
+                    line-height: 0.6rem;
+                    text-align: center;
+                    
+                    width: 1.25rem;
+                    color: #999999;
+                    height: 0.6rem;
+                    border:1px #cacaca solid;
+                }
+            }
+        }
+    }
+    .status{
+        width: 7rem;
+        height: 2rem;
+        background: #e2bc73;
+        text-align: center;
+        line-height: 2rem;
+        color: #fff;
+        font-size: 0.48rem;
+        border-radius: 5px;
+        margin: 0.2rem auto;
+        a{
+            font-size: 0.3rem;
+            color: #fff;
+            float: right;
+            margin-right: 0.25rem;
+        }
+    }
+    .btn_list{
+        width: 7rem;
+        margin:0.4rem auto 1rem;
+        // height: 0.98rem;
+        bottom: 0;
+        left: 0;
+        font-size: 0;
+        button{
+            width: 100%;
+            height: 0.98rem;
+            border: none;
+            font-size: 0.36rem;
+            color: #fff;
+            background: #e2bc73;
+            margin-bottom:0.1rem;
+            
+        }
+    }
+}

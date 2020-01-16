@@ -1,0 +1,180 @@
+.contant_left {
+  float: left;
+  width: 120px;
+  border: 1px #e0e0e0 solid;
+  margin-bottom: 125px;
+  margin-right: 25px; }
+  .contant_left .title {
+    width: 100%;
+    height: 40px;
+    background: #f1f1f1;
+    line-height: 40px;
+    text-align: center; }
+  .contant_left .nav {
+    width: 100%; }
+    .contant_left .nav ul {
+      width: 100%; }
+      .contant_left .nav ul li {
+        width: 100%;
+        border: 1px #e0e0e0 solid; }
+        .contant_left .nav ul li dl {
+          width: 100%;
+          margin: 0; }
+          .contant_left .nav ul li dl dt {
+            width: 100%;
+            height: 42px;
+            line-height: 42px;
+            text-align: center;
+            font-size: 14px;
+            color: #1a1a1a;
+            margin: 0; }
+          .contant_left .nav ul li dl dd {
+            color: #8c8c8c;
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            font-size: 12px;
+            margin: 0; }
+            .contant_left .nav ul li dl dd.active {
+              color: #ee0a0d; }
+
+.contant_right {
+  width: 1050px;
+  float: left; }
+  .contant_right .common_title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px #f2f2f2 solid; }
+    .contant_right .common_title .text {
+      font-size: 16px;
+      width: 100px;
+      text-align: center;
+      height: 100%;
+      border-bottom: 1px solid #ee0a0d;
+      color: #ee0a0d;
+      float: left; }
+  .contant_right form {
+    width: 680px;
+    margin-top: 30px; }
+    .contant_right form .item {
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 21px; }
+      .contant_right form .item .label {
+        width: 100px;
+        float: left;
+        text-align: right;
+        color: #616161;
+        line-height: 40px;
+        margin-right: 20px;
+        font-size: 14px; }
+      .contant_right form .item .input {
+        float: left;
+        width: 520px;
+        box-sizing: border-box;
+        border: 1px #cbcaca solid;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px; }
+        .contant_right form .item .input input {
+          width: 100%;
+          height: 100%;
+          float: left;
+          border: none;
+          background: none;
+          padding: 0 10px;
+          line-height: 40px; }
+      .contant_right form .item .textarea_div {
+        float: left;
+        width: 520px;
+        box-sizing: border-box;
+        border: 1px #cbcaca solid;
+        height: 130px;
+        line-height: 40px;
+        border-radius: 5px; }
+        .contant_right form .item .textarea_div textarea {
+          border: none;
+          width: 100%;
+          padding: 5px 10px;
+          resize: none;
+          height: 100%;
+          box-sizing: border-box; }
+      .contant_right form .item .select_div {
+        float: left;
+        width: 520px;
+        height: 39px;
+        line-height: 40px;
+        border-radius: 5px; }
+        .contant_right form .item .select_div select {
+          width: 257px;
+          height: 100%;
+          border: 1px #cbcaca solid;
+          border-radius: 5px;
+          box-sizing: border-box; }
+      .contant_right form .item .input_code {
+        float: left;
+        width: 397px;
+        box-sizing: border-box;
+        border: 1px #cbcaca solid;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 5px; }
+        .contant_right form .item .input_code input {
+          width: 100%;
+          height: 100%;
+          float: left;
+          border: none;
+          background: none;
+          padding: 0 10px;
+          line-height: 40px; }
+      .contant_right form .item .btn {
+        float: left;
+        width: 110px;
+        height: 40px;
+        background: #ee0a0d;
+        color: #fff;
+        border: none;
+        float: left;
+        margin: 0;
+        margin-left: 10px;
+        font-size: 14px; }
+    .contant_right form button {
+      width: 116px;
+      height: 40px;
+      background: #ee0a0d;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 5px;
+      display: block;
+      margin: 40px auto 15px;
+      cursor: pointer; }
+  .contant_right .tip {
+    text-align: center;
+    color: #999999;
+    font-size: 12px; }
+  .contant_right .bang_success {
+    margin-top: 30px;
+    margin-left: 15px; }
+    .contant_right .bang_success p {
+      font-size: 14px;
+      color: #616161;
+      line-height: 28px; }
+
+@media only screen and (max-width: 750px) {
+  #contant-m {
+    padding-top: 0.87rem;
+    padding-bottom: 0.98rem;
+    width: 100%; }
+    #contant-m .bang_success {
+      margin-top: 0.3rem;
+      margin-left: 0.15rem; }
+      #contant-m .bang_success p {
+        text-align: center;
+        font-size: 0.20rem;
+        color: #616161;
+        line-height: 0.4rem; } }
+
+/*# sourceMappingURL=user.css.map */

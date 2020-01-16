@@ -1,0 +1,167 @@
+#middle{
+    .status{
+        width: 100%;
+        border-bottom: 0.2rem #F2F2F2 solid;
+        
+        overflow: hidden;
+        img{
+            display: block;
+            margin: 0.5rem auto 0.3rem;
+            width: 7rem;
+        }    
+    }
+    
+    .item{
+        border-bottom: 0.2rem #F2F2F2 solid;
+        .item_title{
+            font-size: 0.3rem;
+            color: #333333;
+            font-weight: bold;
+            border-left: 0.08rem solid #e2bc73;
+            line-height: 0.38rem;
+            padding:0 0.25rem;
+            margin: 0.25rem 0;
+            margin-left: 0.25rem;
+            span{
+                color: #e3a32d;
+                line-height: 0.38rem;
+                font-weight: normal;
+                float: right;
+                img{
+                    width: 0.3rem;
+                    height: 0.3rem;
+                }
+            }
+            
+        }
+        
+        
+        .form{
+            width: 100%;
+            .item2{
+                 padding: 0 0.25rem;
+                overflow: hidden;
+                 #file{
+                        width: 1.15rem;
+                        height: 1.15rem;
+                        position: absolute;
+                        opacity:0;
+                    }
+                 .pic_div{
+                    width: 1.15rem;
+                    height: 1.15rem;
+                    border-radius: 0.05rem;
+                    border:1px #9e9e9e solid;
+                    font-size: 0.4rem;
+                    line-height: 1.15rem;
+                    text-align: center;
+                    color: #9e9e9e;
+                    float:left;
+                    margin-right:0.1rem;
+                    margin-bottom:0.1rem;
+
+                    img{
+                        width:100%;
+                    }
+                }
+                .label{
+                    line-height: 0.9rem;
+                    width:100%;
+                    font-size: 0.3rem;
+                    color: #333333;
+                    float: left;
+                }
+                 .input{
+                    width: 100%;
+                    float: left;
+                    font-size: 0.26rem;
+                    color: #999999;
+                    input{
+                        width: 100%;
+                        height: 0.6rem;
+                         box-sizing:border-box;
+                        border:1px #cacaca solid;
+                        float: left;
+                        margin-top: 0.15rem;
+                        padding:0 0.1rem;
+                    }
+                    
+                    textarea{
+                        width:100%;
+                        box-sizing:border-box;
+                        padding:0.1rem 0.1rem;
+                        height: 2.2rem;
+                    }
+                }
+            }
+            .item1{
+                padding: 0 0.25rem;
+                line-height: 0.9rem;
+                overflow: hidden;
+                .info{
+                    color: #e3a32d;
+                    font-size: 0.3rem;
+                    img{
+                        align:middle;
+                        width: 0.3rem;
+                        height: 0.3rem;
+                    }
+                }
+                .label{
+                    line-height: 0.9rem;
+                    width:1.5rem;
+                    font-size: 0.3rem;
+                    color: #333333;
+                    float: left;
+                }
+                .input{
+                    width: 4.5rem;
+                    float: left;
+                    font-size: 0.26rem;
+                    color: #999999;
+                    input{
+                        width: 4rem;
+                        height: 0.6rem;
+                        border:none;
+                        float: left;
+                        margin-top: 0.15rem;
+                    }
+                    input.num{
+                        padding: 0;
+                        text-align: center;
+                        width: 0.6rem;
+                        margin-right: 0.2rem;
+                        display: inline-block;
+                    }
+                    span{
+                        float: left;
+                        margin-right: 0.2rem;
+                    }
+                    textarea{
+                        width:100%;
+                        border:none;
+                        line-height:0.8rem;
+                        height: 2.2rem;
+                    }
+                }
+            }
+            
+        }
+    }
+    .btn_list{
+        width: 7rem;
+        margin:0.4rem auto 1rem;
+        height: 0.98rem;
+        bottom: 0;
+        left: 0;
+        font-size: 0;
+        button{
+            width: 100%;
+            height: 100%;
+            border: none;
+            font-size: 0.36rem;
+            color: #fff;
+            background: #e2bc73;
+        }
+    }
+}
