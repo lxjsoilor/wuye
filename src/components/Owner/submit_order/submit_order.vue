@@ -24,12 +24,12 @@
 								<span>数量：x{{item.goods_number}}</span>
 								规格：{{item.goods_attr}}
 							</p>
-							<p class="price">¥{{item.subtotal}}</p>
+							<p class="price">$ {{item.subtotal}}</p>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="peisong">配送费 <span>¥3.00</span></div> -->
-				<div @click="handlerReload" class="total">共{{allInfo.total_number}}件商品 合计：¥{{allInfo.goods_price}}</div>
+				<!-- <div class="peisong">配送费 <span>$ 3.00</span></div> -->
+				<div @click="handlerReload" class="total">共{{allInfo.total_number}}件商品 合计：$ {{allInfo.goods_price}}</div>
 				<div class="remask">
 					<span>备注：</span>
 					<textarea name="" rows="" cols="" v-model="customer_msg" placeholder="请输入备注信息"></textarea>
@@ -40,7 +40,7 @@
 		</div>
 		
 		<div class="btn_list">
-			<div class="all_total"><span>¥{{allInfo.goods_price}}</span></div>
+			<div class="all_total"><span>$ {{allInfo.goods_price}}</span></div>
 			<button type="button" class="buy" @click="suss">提交订单</button>
 		</div>
 		<!-- <footer-view></footer-view> -->

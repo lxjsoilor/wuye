@@ -33,12 +33,12 @@
 							<p class="attr">
 								<span>数量：x{{item.goods_number}}</span>规格：{{item.goods_attr}}
 							</p>
-							<p class="price">¥{{item.goods_price}}</p>
+							<p class="price">$ {{item.goods_price}}</p>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="peisong">配送费 <span>¥3.00</span></div> -->
-				<div class="total">共6件商品 合计：¥{{info.order.order_amount}}</div>
+				<!-- <div class="peisong">配送费 <span>$ 3.00</span></div> -->
+				<div class="total">共6件商品 合计：$ {{info.order.order_amount}}</div>
 				<div class="remask">
 					备注：{{info.order.postscript}}
 				</div>

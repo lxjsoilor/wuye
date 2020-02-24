@@ -9,7 +9,7 @@
 					<div class="pro_info">
 						<p class="name">{{item.goods_name}}</p>
 						<p class="attr">规格：{{item.goods_attr}}</p>
-						<p  class="price">¥{{item.goods_price}}</p>
+						<p  class="price">$ {{item.goods_price}}</p>
 					</div>
 					<div class="num">
 						<div class="mui-numbox" >
@@ -24,7 +24,7 @@
 		</div>
 		<div class="btn_list">
 			<div class="all_checkbox" @click="selectAll"><img :src="allState?'static/img/cart_checkbox_active.png':'static/img/cart_checkbox.png'" />全选</div>
-			<div class="all_total">合计：<span>¥{{allMoney}}</span></div>
+			<div class="all_total">合计：<span>$ {{allMoney}}</span></div>
 			<button class="buy" type="button" @click="clearing">去结算</button>
 		</div>
 		<!-- <footer-view></footer-view> -->

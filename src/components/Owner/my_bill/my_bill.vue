@@ -14,7 +14,7 @@
 				</select>
 			</div>
 			<div class="car">
-				<div class="price">本月待还：¥<span>{{info.total}}</span></div>
+				<div class="price">本月待还：$ <span>{{info.total}}</span></div>
 				<div class="time">最后交费时间：{{info.b_zjftime}}</div>
 			</div>
 			<div class="bill_title">本月账单明细如下：</div>
@@ -22,11 +22,11 @@
 				<li v-for="(item,index) in info.zytenant" @click="go_detail(item.y_types,item.y_linkid)">
 					<div class="li_title">{{item.y_project}}</div>
 					<div class="li_content">{{item.y_mingchen1}}</div>
-					<div class="price">￥{{item.y_price}}<span>></span></div>
+					<div class="price">$ {{item.y_price}}<span>></span></div>
 				</li>
 				
 			</ul>
-			<div class="total_price">合计：￥{{info.total}}</div>
+			<div class="total_price">合计：$ {{info.total}}</div>
 			<div class="btn_list">
 				<!-- <button type="button" v-if="info.b_zstatus == 2 || info.b_zstatus == 3">立即交费</button> -->
 				<button type="button" v-show="info.b_id || info.b_zstatus == 2" @click="handlerPay">立即交费</button>

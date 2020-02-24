@@ -16,7 +16,7 @@
 						<p class="zt" v-if="item.status == 3">审核失败</p>
 						<p class="zt" v-if="item.status == 4">出租中</p>
 						
-						<h3>¥{{item.rental}}/月</h3>
+						<h3>$ {{item.rental}}/月</h3>
 						<p class="name">{{item.name}}</p>
 						<p class="attr">{{item.house_name}}  {{item.floor_in}}楼  {{item.acreage}}m²  {{item.pay_name}}</p>
 						<p class="position"><img src="img/position.png"/>{{item.address}}</p>

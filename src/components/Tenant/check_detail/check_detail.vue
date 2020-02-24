@@ -9,7 +9,7 @@
 				<div class="house_detail">
 					<div class="img"><img src="img/house_detail.png"></div>
 					<div class="house_name">
-						<p class="price">￥12333.00</p>
+						<p class="price">$ 12333.00</p>
 						<p class="position">滨江海创小区</p>
 						<p class="attr">两房一厅  5楼  60m²  押二付一</p>
 						<p class="address"><img src="img/position.png" alt="" />广州天河区双铺路152号......</p>
@@ -37,8 +37,8 @@
 					<div class="p">小区地址：广州天河区双铺路112号5区b栋 <img src="img/position.png" alt="" /></div>
 					<div class="p">入住楼层：5层</div>
 					<div class="p">房间号：502</div>
-					<div class="p">租金：¥2500.00/月</div>
-					<div class="p">押金：¥5000</div>
+					<div class="p">租金：$ 2500.00/月</div>
+					<div class="p">押金：$ 5000</div>
 					<div class="p">支付方式：押二付一</div>
 				</div>
 			</div>

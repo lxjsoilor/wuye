@@ -8,7 +8,7 @@
 				<li v-for="(item,index) in lists" @click="go_detail(item.h_id)">
 					<div class="img"><img :src="item.pic"/></div>
 					<div class="right">
-						<h3>¥{{item.rental}}/月</h3>
+						<h3>$ {{item.rental}}/月</h3>
 						<p class="name">{{item.name}}</p>
 						<p class="attr green" v-if="item.h_status == 0">正在申请</p>
 						<p class="attr green" v-if="item.h_status == 1">正在居住</p>

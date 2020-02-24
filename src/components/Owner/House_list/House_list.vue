@@ -30,7 +30,7 @@
 				<li v-for="(item,index) in lists" @click="go_detail(item.id)">
 					<div class="img"><img :src="item.pic"/></div>
 					<div class="right">
-						<h3>¥{{item.rental}}/月</h3>
+						<h3>$ {{item.rental}}/月</h3>
 						<p class="name">{{item.name}}</p>
 						<p class="attr">{{item.house_type}}  {{item.floor_in}}  {{item.acreage}}m²  {{item.pay_type}}</p>
 						<p class="position"><img src="static/img/position.png"/>{{item.address}}</p>

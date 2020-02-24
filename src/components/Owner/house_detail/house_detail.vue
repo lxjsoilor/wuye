@@ -10,7 +10,7 @@
 				</mt-swipe> 
 			</div>
 			<div class="house_info">
-				¥{{info.rental}}/月
+				$ {{info.rental}}/月
 				<span class="time">发布时间：{{info.create_time}}</span>
 			</div>
 			<div class="name">{{info.name}}</div>

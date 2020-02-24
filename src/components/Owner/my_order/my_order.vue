@@ -20,10 +20,10 @@
 						<div class="product" v-for="(items,indexs) in item.goods_list">
 							<p class="name">{{items.goods_name}}</p>
 							<p class="num">x{{items.goods_num}}</p>
-							<p class="price">¥{{items.goods_price}}</p>
+							<p class="price">$ {{items.goods_price}}</p>
 						</div>
 					
-						<div class="total_price">共{{item.zgoods_number}}件商品 合计：¥{{item.total_fee}}</div>
+						<div class="total_price">共{{item.zgoods_number}}件商品 合计：$ {{item.total_fee}}</div>
 					</div>
 					<div class="btn">
 						<button type="button" @click="cenel(item.order_id)" v-if="item.zhuangtai == 1">取消发货</button>

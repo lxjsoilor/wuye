@@ -5,7 +5,7 @@
 			
 			<div class="form">
 				<div class="item">
-					<div class="label">{{info.y_project}}：¥{{info.y_price}}</div>
+					<div class="label">{{info.y_project}}：$ {{info.y_price}}</div>
 				</div>
 				<div class="item">
 					<div class="label">{{info.y_mingchen2}}：{{info.y_mcshijian}}</div>

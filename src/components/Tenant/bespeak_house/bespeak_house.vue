@@ -11,7 +11,7 @@
 					<span v-if="item.r_status == 3" class="red">取消预约</span>
 					<div class="img"><img :src="item.pic"/></div>
 					<div class="right">
-						<h3>¥{{item.rental}}/月</h3>
+						<h3>$ {{item.rental}}/月</h3>
 						<p class="name">{{item.name}}</p>
 						<p class="attr">{{item.house_type}}  {{item.floor_in}}楼  {{item.com}}m²  {{item.pay_type}}</p>
 						<p class="position"><img src="static/img/position.png"/>{{item.address}}</p>

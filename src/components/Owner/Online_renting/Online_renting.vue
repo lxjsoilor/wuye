@@ -6,7 +6,7 @@
 			<div class="house_detail">
 				<div class="img"><img src="static/img/house_detail.png"></div>
 				<div class="house_name">
-					<p class="price">￥{{info.rental}}</p>
+					<p class="price">$ {{info.rental}}</p>
 					<p class="position">{{info.name}}</p>
 					<p class="attr">{{info.house_type}}  {{info.floor_in}}  {{info.acreage}}m²  {{info.pay_type}}</p>
 					<p class="address"><img src="static/img/position.png" alt="" />{{info.address}}</p>
@@ -24,8 +24,8 @@
 				<div class="p">房间号：
 					<input type="text" value="" v-model="submit_form.h_fanghao"  class="text"/>
 				</div>
-				<div class="p">租金：¥{{info.rental}}/月</div>
-				<div class="p">押金：¥{{info.yajin}}</div>
+				<div class="p">租金：$ {{info.rental}}/月</div>
+				<div class="p">押金：$ {{info.yajin}}</div>
 				<div class="p">支付方式：{{info.pay_type}}</div>
 			</div>
 			<div class="form">
@@ -74,7 +74,7 @@
 			
 		</div>
 		<div class="btn_list">
-			<div class="price">¥{{info.feiyong}}</div>
+			<div class="price">$ {{info.feiyong}}</div>
 			<button type="button" @click="show_model">确认租房</button>
 		</div>
 		
@@ -83,7 +83,7 @@
 			<div class="model_header">确认租房</div>
 			<p>	小区名称：{{info.name}}</p>
 			<p>	楼层：{{submit_form.h_louceng}}楼</p>
-			<p>	支付金额：¥{{info.feiyong}}</p>
+			<p>	支付金额：$ {{info.feiyong}}</p>
 			<div class="model_btn">
 				<button type="button" class="cannel" @click="show = !show">取消</button>
 				<button type="button" class="yes" @click="zufang">确定</button>

@@ -35,7 +35,7 @@
 							{{item.h_status == 5?'拒绝退房':''}}
 						</p>
 						
-						<h3>¥{{item.rental}}/月</h3>
+						<h3>$ {{item.rental}}/月</h3>
 						<p class="name">{{item.hous_name}}</p>
 						<p class="attr">{{item.type_name}} {{item.floor_in}}楼 {{item.acreage}}m² {{item.pay_type_name}}</p>
 						<p class="position">到期时间: {{item.h_dqtime}}</p>

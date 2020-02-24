@@ -16,7 +16,7 @@
 				<div class="house_detail">
 					<div class="img"><img src="static/img/house_detail.png"></div>
 					<div class="house_name">
-						<p class="price">￥{{info.rental}}</p>
+						<p class="price">$ {{info.rental}}</p>
 						<p class="position">{{info.name}}</p>
 						<p class="attr">{{info.house_type}}  {{info.floor_in}}楼  {{info.acreage}}m²  {{info.pay_type}}</p>
 						<p class="address"><img src="static/img/position.png" alt="" />{{info.address}}</p>
@@ -33,8 +33,8 @@
 					<div class="p">
 						房间号：{{info.h_fanghao}}
 					</div>
-					<div class="p">租金：¥{{info.rental}}/月</div>
-					<div class="p">押金：¥ {{info.h_yajin}}</div>
+					<div class="p">租金：$ {{info.rental}}/月</div>
+					<div class="p">押金：$  {{info.h_yajin}}</div>
 					<div class="p">支付方式： {{info.pay_type}}</div>
 				</div>
 			</div>

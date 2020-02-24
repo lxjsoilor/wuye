@@ -9,7 +9,7 @@
 				<div class="current">{{banner_index}}/{{info.gallery.length}}</div>
 			</div>
 			<div class="pro_info">
-				<p class="price">￥{{info.shop_price}}</p>
+				<p class="price">$ {{info.shop_price}}</p>
 				<p class="name">{{info.goods_name}}</p>
 			</div>
 			<div class="pro_attr">
