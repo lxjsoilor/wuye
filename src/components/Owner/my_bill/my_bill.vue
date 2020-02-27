@@ -10,7 +10,7 @@
 					<option :value="item.num" v-for="(item,index) in mouths">{{item.name}}</option>
 				</select>
 				<select @change="submit" v-model="submit_data.b_fangyangid" style="margin: 0.17rem 0.1rem; width: 2rem;" >
-					<option :value="item.r_id" v-for="(item,index) in house_list">{{item.name}}</option>
+					<option :value="item.h_fangyangid" v-for="(item,index) in house_list">{{item.name}}</option>
 				</select>
 			</div>
 			<div class="car">
@@ -155,7 +155,7 @@
 			},
 			get_house(){
 				this.$axios({
-					url:'http://wy.gzziyu.com/zlisting.php?Action=yuyuelist',
+					url:'http://wy.gzziyu.com/zlisting.php?Action=zhufanglist',
 					method:'post',
 					params:{
 						user_id:userInfo.user_id
