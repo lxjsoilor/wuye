@@ -42,6 +42,7 @@
 </template>
 <script type="text/javascript">
 	var userInfo = JSON.parse(sessionStorage.getItem('userInfos'));
+	console.log({userInfo})
 	export default{
 		name:'user_info',
 		data(){
@@ -57,6 +58,7 @@
 			}
 		},
 		created(){
+			userInfo = JSON.parse(sessionStorage.getItem('userInfos'));
 			this.get_info()
 		},
 		methods:{

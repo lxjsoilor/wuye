@@ -21,7 +21,15 @@
 						<textarea type="text" v-model="msg_title" placeholder="请输入建议内容" /></textarea>
 					</div>
 				</div>
-				
+				<div class="file">
+					<div class="label">房产信息上传：</div>
+					<div class="input">
+						<form ><input type="file" id="file" @change="getFile($event)">
+				</form>
+						<button>浏览</button>
+					</div>
+				</div>
+				<div class="img" v-show="file_url"><img :src="'http://wy.gzziyu.com/'+file_url"/></div>
 			</div>
 			<div class="btn_list">
 				<button type="button" @click="submit">提交建议</button>
@@ -37,12 +45,38 @@
 		data(){
 			return {
 				msg_title:'',
-				msg_type:0
+				msg_type:0,
+				file_url: '',
+				file_id: ''
 			}
 		},
 		created(){
 		},
 		methods:{
+			getFile(event) {
+				this.$Indicator.open()
+				this.file = event.target.files[0];
+				console.log(this.file);
+				let formData = new FormData();
+				formData.append('file', this.file);
+				let config = {
+					headers: {
+						'Content-Type': 'multipart/form-data'
+					}
+				}
+				var that = this;
+				this.$axios.post('http://wy.gzziyu.com/owner.php?act=upload_file', formData, config).then(function (res) {
+						console.log(res)
+						if(res.data.error == 0){
+							that.file_id = res.data.data.id;
+							that.file_url= res.data.data.path
+							that.$Indicator.close()
+						}
+				})
+				.catch((err)=>{
+					console.log(err)
+				})
+			},
 			submit(){
 				this.$axios({
 					url:'http://wy.gzziyu.com/zmember.php?Action=wentifankui',
@@ -50,7 +84,8 @@
 					params:{
 						user_id:userInfo.user_id,
 						msg_title:this.msg_title,
-						msg_type:this.msg_type
+						msg_type:this.msg_type,
+						file_id:this.file_id
 					}
 				})
 				.then((res)=>{

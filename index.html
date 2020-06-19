@@ -7,15 +7,43 @@
     <title>wuye</title>
   </head>
    <script type="text/javascript">
-       function fnResize() {
-        var deviceWidth = document.documentElement.clientWidth || window.innerWidth
-        
-        document.documentElement.style.fontSize = (deviceWidth / 7.5) + 'px'
-        }
-        fnResize()
-        window.onresize = function () {
-           fnResize()
-        }
+   
+    document.addEventListener('plusready', function(){
+        var webview = plus.webview.currentWebview();
+        plus.key.addEventListener('backbutton', function() {
+            webview.canBack(function(e) {
+              plus.webview.close('pdf_webview');
+                if(e.canBack) {
+                    webview.back();
+                } else {
+                    var first = null;
+                    plus.key.addEventListener('backbutton', function() {
+                        if (!first) {
+                            first = new Date().getTime();
+                            console.log('再按一次退出应用');
+                            setTimeout(function() {
+                                first = null;
+                            }, 1000);
+                        } else {
+                            if (new Date().getTime() - first < 1500) {
+                                plus.runtime.quit();
+                            }
+                        }
+                    }, false);
+                }
+            })
+        });
+      }, false );
+
+      function fnResize() {
+      var deviceWidth = document.documentElement.clientWidth || window.innerWidth
+      
+      document.documentElement.style.fontSize = (deviceWidth / 7.5) + 'px'
+      }
+      fnResize()
+      window.onresize = function () {
+          fnResize()
+      }
     </script>
   <body>
     <div id="app"></div>

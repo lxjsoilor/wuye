@@ -32,7 +32,7 @@ Vue.$messagebox = Vue.prototype.$messagebox = MessageBox;
 Vue.$Toast = Vue.prototype.$Toast = Toast;
 Vue.$Indicator = Vue.prototype.$Indicator = Indicator;
 
-
+ 
 router.beforeEach((to, from, next) => {
   if(to.path == '/cart' || to.path.indexOf("/O_user") != -1 || to.path == '/Renting' || to.path== '/submit_suggest'){
     if (!sessionStorage.getItem('userInfos')) {

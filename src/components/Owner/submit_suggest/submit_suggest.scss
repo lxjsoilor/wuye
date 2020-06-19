@@ -1,4 +1,55 @@
 #middle{
+    .img{
+        width:7.05rem;
+       height: auto;
+       
+       margin: 0 auto 0.35rem;
+       img{
+           max-width: 3rem;
+           margin-right:0.1rem;
+       }
+   }
+    .file{
+        width:7.05rem;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto 0.35rem;
+        .label{
+        float:left;
+        color: #333333;
+        font-size: 0.3rem;
+        line-height: 0.8rem;
+        }
+        .input{
+        width: 4.2rem;
+        height: 0.6rem;
+        border:1px #bfbfbf solid;
+        position:relative;
+        float: left;
+        form{
+        height:0;
+        margin:0;
+        }
+        #file{
+        width:100%;
+        position:absolute;
+        height:100%;
+        opacity:0;
+        left:0;
+        top:0;
+        }
+        button{
+        float: right;
+        width: 1.28rem;
+        height: 100%;
+        background: #e2bc73;
+        color: #FFF;
+        // float:left;
+        border:none;
+        }
+        }
+        }
+        
     .form{
         width: 100%;
         margin: 0.2rem 0;
@@ -77,3 +128,4 @@
         }
     }
 }
+

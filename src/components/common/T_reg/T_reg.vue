@@ -48,7 +48,7 @@
 			    	</div>
 			    </div>
 			   
-			    <div class="img"><img :src="'http://wy.gzziyu.com/'+file_url"/></div>
+			    <div class="img" v-show="file_url"><img :src="'http://wy.gzziyu.com/'+file_url"/></div>
 			  	<div class="submit">
 			  		<button type="button" @click="submit_form" v-if="!status_bool">注册登记</button>
 			  		<button type="button" @click="submit_form1" v-if="status_bool">提交修改</button>
