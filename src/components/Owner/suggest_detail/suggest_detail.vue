@@ -16,7 +16,10 @@
 				<div class="item">
 					<div class="label">建议时间：</div>
 					<div class="input">{{info.msg_time}}</div>
-					
+				</div>
+				<div class="item item-img">
+					<div class="label">建议图片：</div>
+					<img v-show="info.message_img" :src="'http://wy.gzziyu.com/' + info.message_img" alt="">
 				</div>
 				
 			</div>

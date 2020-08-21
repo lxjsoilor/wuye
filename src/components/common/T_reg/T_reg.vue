@@ -87,6 +87,9 @@
 				this.status_bool = true;
 			}
 		},
+		beforeDestroy() {
+			this.$Indicator.close()
+		},
 		methods:{
 			go_back(){
 				this.$router.push('/')
@@ -254,11 +257,11 @@
 	            }
             	var that = this;
              	this.$axios.post('http://wy.gzziyu.com/owner.php?act=upload_file', formData, config).then(function (res) {
-	             	 console.log(res)
+									console.log(res)
+	             	 that.$Indicator.close()
 	             	 if(res.data.error == 0){
 	             	 that.submit_order.file_id = res.data.data.id;
 	             	 that.file_url= res.data.data.path
-	             	 that.$Indicator.close()
 	             	 }
 	            })
 	            .catch((err)=>{

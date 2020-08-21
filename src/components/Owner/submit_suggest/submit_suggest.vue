@@ -52,6 +52,9 @@
 		},
 		created(){
 		},
+		beforeDestroy() {
+			this.$Indicator.close()
+		},
 		methods:{
 			getFile(event) {
 				this.$Indicator.open()
@@ -67,10 +70,10 @@
 				var that = this;
 				this.$axios.post('http://wy.gzziyu.com/owner.php?act=upload_file', formData, config).then(function (res) {
 						console.log(res)
+						that.$Indicator.close()
 						if(res.data.error == 0){
 							that.file_id = res.data.data.id;
 							that.file_url= res.data.data.path
-							that.$Indicator.close()
 						}
 				})
 				.catch((err)=>{
@@ -85,7 +88,7 @@
 						user_id:userInfo.user_id,
 						msg_title:this.msg_title,
 						msg_type:this.msg_type,
-						file_id:this.file_id
+						message_img:this.file_url
 					}
 				})
 				.then((res)=>{
@@ -100,6 +103,8 @@
 						  this.$router.push('suggest')
 						}, 1500);
 		   				
+					} else {
+						this.$Toast(res.data.msg || '系统繁忙，请稍后再试')
 					}
 				})
 			}

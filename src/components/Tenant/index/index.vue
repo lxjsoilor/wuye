@@ -7,7 +7,7 @@
 		<div id="middle">
 			<div class="banner">
 			 	<mt-swipe :auto="3000">
-				  <mt-swipe-item v-for="(item,index) in lunbo"><img :src="item.ad_code"/></mt-swipe-item>
+				  <mt-swipe-item @click.native="handlerClick(item)" v-for="(item,index) in lunbo"><img :src="item.ad_code"/></mt-swipe-item>
 				 
 				</mt-swipe> 
 				
@@ -89,6 +89,11 @@
 				         
 				        }
 				})
+			},
+			handlerClick(item) {
+				if(item.ad_link) {
+					window.location.href = item.ad_link;
+				};
 			},
 			callback(){
 				

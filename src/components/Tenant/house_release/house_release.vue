@@ -210,6 +210,9 @@
 					this.get_info(this.$route.query.id)
 			}
 		},
+		beforeDestroy() {
+			this.$Indicator.close()
+		},
 		methods:{
 			// 户型弹窗
 			show_model(){
@@ -257,12 +260,12 @@
 	            }
             	var that = this;
              	this.$axios.post('http://wy.gzziyu.com/owner.php?act=upload_file', formData, config).then(function (res) {
-	             	 console.log(res)
+									console.log(res)
+	             	 that.$Indicator.close()
 	             	 if(res.data.error == 0){
 	             	 that.file_id_list.push(res.data.data.id)
 	             	 that.file_url.push(res.data.data.path)
 	             	 that.submit_data.file_id = that.file_id_list.join(',')
-	             	 that.$Indicator.close()
 	             	 }
 	            })
 	            .catch((err)=>{

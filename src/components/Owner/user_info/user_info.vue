@@ -31,7 +31,7 @@
 			</div>
 			<div class="item">
 				<div class="label">手机号码</div>
-				<div class="input"><input type="text" v-model="info.mobile_phone" value="13656978794"  readonly="readonly" /></div>
+				<div class="input"><input type="text" v-model="info.mobile_phone"/></div>
 			</div>
 			<div class="btn_list">
 				<button type="button" @click="set_info">保存</button>
